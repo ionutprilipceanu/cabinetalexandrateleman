@@ -177,7 +177,7 @@ class Nav_bar extends Component {
           </ul>
           <ul className="navSideSecond">
             <li>Andreea Teleman</li>
-            <li>(+40) 751 684 142</li>
+            <li>(+40) 756 660 085</li>
             <li>cabinetteleman@gmail.com</li>
           </ul>
 
@@ -228,7 +228,7 @@ class Nav_bar extends Component {
             </ul>
             <ul className="navSideSecond">
             <li>Andreea Teleman</li>
-            <li>(+40) 751 684 142</li>
+            <li>(+40) 756 660 085</li>
             <li>cabinetteleman@gmail.com</li>
             </ul>
             <button className="burger" onClick={ () => this.showNavBar()} onKeyDown={ () => this.showNavBar()}>
