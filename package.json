@@ -14,9 +14,21 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-brands-svg-icons": "^5.15.1",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.12",
+    "bootstrap": "^4.5.3",
     "gatsby": "^2.26.1",
+    "gatsby-plugin-emotion": "^4.5.0",
+    "gatsby-plugin-typography": "^2.7.0",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-bootstrap": "^1.4.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^3.11.0",
+    "react-modal": "^3.12.1",
+    "react-reveal": "^1.2.2"
   },
   "devDependencies": {
     "prettier": "2.1.2"

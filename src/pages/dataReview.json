@@ -1,0 +1,29 @@
+{
+  "people": [
+  {
+    "_id": "people1",
+    "name": "Olympe Rambaut",
+    "feedBack": "Calme, spirituel. Soulager de parler avec quelqu’un qui est à l’écoute et qui fait réagir. Je recommande"
+  },
+  {
+    "_id": "people2",
+    "name": "Maria Pahome",
+    "feedBack": "Cea mai bună! 😊 Recomand cu mare drag!"
+  },
+  {
+    "_id": "people3",
+    "name": "Hana Haman",
+    "feedBack": "Pentru ca are o echipa tare entusiasta si nonconformista ! Succes !"
+  },
+  {
+    "_id": "people4",
+    "name": "Ely Tab",
+    "feedBack": "Este și va fi un psiholog foarte bun. O recomand cu cea mai mare căldură. Succes in carieră! "
+  },
+  {
+    "_id": "people5",
+    "name": "Ymmij Azuh ",
+    "feedBack": "Pentru că este motivată, pune suflet și crede în ce face!"
+  }
+  ]
+}
