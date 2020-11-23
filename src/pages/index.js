@@ -32,7 +32,7 @@ export default class index extends Component {
             <meta property="og:image:width" content="1200"/>
             <meta property="og:image:height" content="630"/>
             <link rel="icon" href={favicon} />
-            <meta property="og:image" content="/images/cover-img.jpg"/>
+            <meta property="og:image" content={imageCover}/>
 	          <meta property="og:image:width" content="1200"/>
 	          <meta property="og:image:height" content="630"></meta>
 
@@ -52,7 +52,7 @@ export default class index extends Component {
             <meta property="twitter:url" content="https://metatags.io/"/>
             <meta property="twitter:title" content="Andreea Teleman - Psihoterapeut | Iași"/>
             <meta property="twitter:description" content="Alexandra mă numesc și sunt psihoterapeut, cabinetul este deschis pentru ședințe personalizate de psihoterapie și consiliere pentru adulți. Învinge depresia și anxietatea."/>
-            <meta property="twitter:image" content="/images/cover-img.jpg"/>
+            <meta property="og:image" content={imageCover}/>
           </Helmet>
         {/* <SeoComponent/> */}
         <NavBar />
