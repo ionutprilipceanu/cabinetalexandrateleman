@@ -8,6 +8,7 @@ import Intro from "..//components/Intro/Intro"
 import Servicii from "..//components/Servicii/Servicii"
 import Review from "..//components/Review/Review"
 import FooterBottom from "..//components/FooterBottom/FooterBottom"
+import imageCover from "..//..//static/images/cover-img.jpg"
 
 
 export default class index extends Component {
@@ -27,7 +28,7 @@ export default class index extends Component {
             <meta property="og:type" content="website"/>
             <meta property="og:title" content="Andreea Teleman - Psihoterapeut | Iași"/>
             <meta property="og:site_name" content="Andreea Teleman - Psihoterapeut | Iași"></meta>
-            <meta property="og:image" content="/images/cover-img.jpg"/>
+            <meta property="og:image" content={imageCover}/>
             <meta property="og:image:width" content="1200"/>
             <meta property="og:image:height" content="630"/>
             <link rel="icon" href={favicon} />
@@ -42,7 +43,7 @@ export default class index extends Component {
             <meta property="og:type" content="website"/>
             <meta property="og:title" content="Andreea Teleman - Psihoterapeut | Iași"/>
             <meta property="og:description" content="Alexandra mă numesc și sunt psihoterapeut, cabinetul este deschis pentru ședințe personalizate de psihoterapie și consiliere pentru adulți. Învinge depresia și anxietatea."/>
-            <meta property="og:image" content="/images/cover-img.jpg"/>
+            <meta property="og:image" content={imageCover}/>
 	          <meta property="og:image:width" content="1200"/>
 	          <meta property="og:image:height" content="630"></meta>
 
