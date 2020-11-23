@@ -8,7 +8,7 @@ function Footer() {
   return (
     <div className="footer">
       <ul className="componenteDesktop">
-        <p>Andreea Teleman - Psihoterapeut &copy;Iași România 2021</p>
+        <p>Alexandra Teleman - Psihoterapeut &copy;Iași România 2021</p>
       </ul>
 
        <ul className="logoItemsDesktop">
@@ -18,7 +18,7 @@ function Footer() {
       </ul> 
 
       <ul className="componentePhone">
-        <p>Andreea Teleman - Psihoterapeut &copy;Iași România 2021</p>
+        <p>Alexandra Teleman - Psihoterapeut &copy;Iași România 2021</p>
       </ul>
 
       <ul className="logoItemsPhone">
