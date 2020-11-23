@@ -44,7 +44,7 @@ class Acasa extends Component {
               <div className="contactName">
                 <img src={favicon}  alt="logo" className="contactLogo"/>
                 <p>
-                  Andreea Teleman <br/>
+                  Alexandra Teleman <br/>
                   (+40) 756 660 085 <br/>
                   cabinetteleman@gmail.com
                 </p>
