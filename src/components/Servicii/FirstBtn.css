@@ -77,5 +77,19 @@
     padding: 2.5% 10%;
   }
 
+  
+
+  .ModalTitle{
+    text-align: center;
+    margin-top: 15%;
+  }
+    
+  .ModalText{
+    text-align: justify;
+    margin: 10%;
+  }
+  
+  
+
 
 }

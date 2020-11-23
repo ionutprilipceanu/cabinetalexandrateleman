@@ -58,3 +58,17 @@
   width: 35px;
   height: 35px;
 }
+
+@media screen and (max-width: 650px) {
+
+  .ModalTitle{
+    text-align: center;
+    margin-top: 15%;
+  }
+  
+  .ModalText{
+    text-align: justify;
+    margin: 10%;
+  }
+
+}
