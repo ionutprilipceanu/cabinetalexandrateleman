@@ -29,7 +29,8 @@ function SeoComponent() {
 
             {/* <!-- Open Graph / Facebook --> */}
             <meta property="og:type" content="website"/>
-            <meta property="og:url" content="https://metatags.io/"/>
+            <meta property="og:url" content="https://alexandra-teleman.netlify.app/"/>
+            <meta property="og:type" content="website"/>
             <meta property="og:title" content="Andreea Teleman - Psihoterapeut | Iași"/>
             <meta property="og:description" content="Alexandra mă numesc și sunt psihoterapeut, cabinetul este deschis pentru ședințe personalizate de psihoterapie și consiliere pentru adulți. Învinge depresia și anxietatea."/>
             <meta property="og:image" content="/images/cover-img.jpg"/>
