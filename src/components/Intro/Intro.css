@@ -110,11 +110,15 @@
   .aboutSection{
     width: 95%;
     text-align: justify;
-    margin: 0 auto;
+    margin: 2% auto;
   }
   
   .profilePhoto img {
     margin: 0 auto;
+  }
+
+  .experience {
+    padding: 5% 10%;
   }
 
 }
