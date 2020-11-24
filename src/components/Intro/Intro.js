@@ -32,11 +32,15 @@ export class Intro extends Component {
                 </div>
                 
                 <div className="aboutSection">
-                <Card.Subtitle className="cardSubtitleSection">Bună, sunt Alexandra. <br/> Îmi pare bine să te cunosc!</Card.Subtitle>
+                <Card.Subtitle className="cardSubtitleSection">Bună, sunt Alexandra. <br/> Îmi pare bine că vrei să mă cunoști! <br/><br/></Card.Subtitle>
                 <Card.Text className="aboutText">
-                Nimeni nu este în totalitate imun în fața emoțiilor în situații în care este nevoit să accepte că trece printr-o perioadă dificilă. De cele mai multe ori considerăm că putem trece de unii singuri prin orice situație complicată însă în timp constatăm că ar fi mai util să beneficiem de ajutorul unui expert.
+                Consider că omul este o ființă rațională. El nu v-a acționa în nici un fel dacă consideră că un comportament nu îi v-a aduce beneficiu. Sunt momente când ne simțim copleșiți emoțional și nu mai vedem luminița de la capătul tunelului. Alteori ne putem întreba de ce nu putem fi așa cum visăm să fim! Suntem triști, cu un sentiment puternic de vid. Observăm că relațiile cu ceilalți sunt deficitare și nu înțelegem de ce. 
+                <br/><br/>
+                Rolul psihologului este tocmai acela de a te ajuta să înțelegi și să controlezi toate acestea, urcând împreună, același deal, indiferent de plouă sau ninge!
+                Noi știm că după toate v-a ieși și soarele!
+                Conștientizarea este primul pas care te face să acționezi! <br/>
+                Investește-n tine!
 
-                De-a lungul timpului am întâlnit și ajutat foarte mulți oameni să se cunoască mai bine, să-și valorifice mai bine resursele interioare, să ajungă la un echilibru și mai ales să aibă rezultate pozitive în diferite aspecte ale vieții.
                 </Card.Text>
                 </div>
                 
@@ -50,7 +54,7 @@ export class Intro extends Component {
           <div className="experience">
             <h3>Primul pas</h3>
             <p>
-              Știu cât de greu poate fi să vorbești cu cineva, din acest motiv te invit să programezi o primă ședință în care îți voi da mai multe detalii despre cum se va desfășura consilierea, îți voi răspunde la întrebări și în acest mod vei ști exact cum va avea loc progresul tău.
+            Știu cât de greu poate fi să vorbești cu cineva, din acest motiv te invit să programezi o primă ședință în care îți voi da mai multe detalii despre cum se va desfășura procesul terapeutic, îți voi răspunde la întrebări și în acest mod vei ști exact cum va avea loc progresul tău.
               <br/><br/>
               De asemenea îți voi oferi informații valoroase din experiența mea de până acum, este necesar doar să le implementezi și curând vei simți efecte pozitive pe termen lung.
             </p>
