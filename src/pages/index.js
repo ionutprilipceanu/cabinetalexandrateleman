@@ -34,7 +34,7 @@ export default class index extends Component {
             <link rel="icon" href={favicon} />
             <meta property="og:image" content={imageCover}/>
 	          <meta property="og:image:width" content="1200"/>
-	          <meta property="og:image:height" content="630"></meta>
+	          <meta property="og:image:height" content="630"></meta> 
 
 
             {/* <!-- Open Graph / Facebook --> */}
