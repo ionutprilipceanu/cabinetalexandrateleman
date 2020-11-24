@@ -118,7 +118,7 @@
   }
 
   .experience {
-    padding: 5% 10%;
+    padding: 5% 10% !important;
   }
 
 }
