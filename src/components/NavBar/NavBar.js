@@ -176,7 +176,7 @@ class Nav_bar extends Component {
             </li>
           </ul>
           <ul className="navSideSecond">
-            <li>Andreea Teleman</li>
+            <li>Alexandra Teleman</li>
             <li>(+40) 756 660 085</li>
             <li>cabinetteleman@gmail.com</li>
           </ul>
@@ -227,7 +227,7 @@ class Nav_bar extends Component {
               </li>
             </ul>
             <ul className="navSideSecond">
-            <li>Andreea Teleman</li>
+            <li>Alexandra Teleman</li>
             <li>(+40) 756 660 085</li>
             <li>cabinetteleman@gmail.com</li>
             </ul>
