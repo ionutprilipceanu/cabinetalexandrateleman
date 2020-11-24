@@ -49,7 +49,7 @@ class InfoComponent extends Component {
           <ul>
             <li>Facultatea de Psihologie și Științe ale Educației, Universitatea Alexandru Ioan Cuza, Iași</li>
             <li>Master în Psihologie clinică</li>
-            <li>Master în Științe ale Educației</li>
+            <li>Master în Relații Umane și Comunicare</li>
             <li>Drept de liberă practică acordat de Colegiul Psihologilor din Romania</li>
             
           </ul>
