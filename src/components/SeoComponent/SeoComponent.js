@@ -20,12 +20,12 @@ function SeoComponent() {
             <meta property="og:title" content="Andreea Teleman - Psihoterapeut | Iași"/>
             <meta property="og:site_name" content="Andreea Teleman - Psihoterapeut | Iași"></meta>
             <meta property="og:image" content={imagineFundal}/>
-            <meta property="og:image:width" content="1000"/>
-            <meta property="og:image:height" content="430"/>
+            <meta property="og:image:width" content="1200"/>
+            <meta property="og:image:height" content="630"/>
             <link rel="icon" href={favicon} />
             <meta property="og:image" content={imagineFundal}/>
-	          <meta property="og:image:width" content="1000"/>
-	          <meta property="og:image:height" content="430"></meta> 
+	          <meta property="og:image:width" content="1200"/>
+	          <meta property="og:image:height" content="630"></meta> 
 
 
             {/* <!-- Open Graph / Facebook --> */}
@@ -35,12 +35,12 @@ function SeoComponent() {
             <meta property="og:title" content="Andreea Teleman - Psihoterapeut | Iași"/>
             <meta property="og:description" content="Alexandra mă numesc și sunt psihoterapeut, cabinetul este deschis pentru ședințe personalizate de psihoterapie și consiliere pentru adulți. Învinge depresia și anxietatea."/>
             <meta property="og:image" content={imagineFundal}/>
-	          <meta property="og:image:width" content="1000"/>
-	          <meta property="og:image:height" content="430"></meta>
+	          <meta property="og:image:width" content="1200"/>
+	          <meta property="og:image:height" content="630"></meta>
 
             {/* <!-- Twitter --> */}
             <meta property="twitter:card" content="summary_large_image"/>
-            <meta property="twitter:url" content="https://metatags.io/"/>
+            <meta property="twitter:url" content="https://alexandra-teleman.netlify.app/"/>
             <meta property="twitter:title" content="Andreea Teleman - Psihoterapeut | Iași"/>
             <meta property="twitter:description" content="Alexandra mă numesc și sunt psihoterapeut, cabinetul este deschis pentru ședințe personalizate de psihoterapie și consiliere pentru adulți. Învinge depresia și anxietatea."/>
             <meta property="og:image" content={imagineFundal}/>
