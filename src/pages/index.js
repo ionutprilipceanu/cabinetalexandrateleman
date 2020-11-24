@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 import SeoComponent from "../components/SeoComponent/SeoComponent"
-import Helmet from 'react-helmet'
-import favicon from '..//..//static/images/favicon.png'
 import NavBar from "../components/NavBar/NavBar"
 import Acasa from "..//components/Acasa/Acasa"
 import Intro from "..//components/Intro/Intro"
