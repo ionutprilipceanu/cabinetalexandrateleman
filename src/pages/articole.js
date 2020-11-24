@@ -9,7 +9,9 @@ export default class index extends Component {
     return (
       <div>
         <NavBar />
-        
+        <br/><br/><br/><br/><br/>
+        <h1 style={{margin:"15%"}}>In work...</h1>
+        <br/><br/><br/><br/><br/>
         <FooterBottom />
       </div>
     )
