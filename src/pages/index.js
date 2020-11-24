@@ -8,7 +8,7 @@ import Intro from "..//components/Intro/Intro"
 import Servicii from "..//components/Servicii/Servicii"
 import Review from "..//components/Review/Review"
 import FooterBottom from "..//components/FooterBottom/FooterBottom"
-import imageCover from "..//..//static/images/cover-img.jpg"
+import imageCover from "..//..//static/images/img-cover.jpg"
 
 
 export default class index extends Component {
