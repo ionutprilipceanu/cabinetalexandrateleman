@@ -11,7 +11,7 @@ function SeoComponent() {
             {/* <!-- Primary Meta Tags --> */}
             <title>Alexandra Teleman - Psihoterapeut | Iași</title>
             <meta name="title" content="Alexandra Teleman - Psihoterapeut | Iași"/>
-            <meta name="description" content="Alexandra mă numesc și sunt psihoterapeut, cabinetul este deschis pentru ședințe personalizate de psihoterapie și consiliere pentru adulți. Învinge depresia și anxietatea."/>
+            <meta name="description" content="Alexandra mă numesc și sunt psihoterapeut, cabinetul este deschis pentru ședințe personalizate de psihoterapie și consiliere pentru adulți. Investește-n tine!"/>
             <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
             <meta name="keywords" content="psiholog iasi, psihoterapeut iasi, psiholog, depresie, anxietate, tristețe, dezvoltare personală, psihoterapie, anxietate simptome, terapie de familie, terapie de cuplu, terapie online, terapie individuala"></meta>
             <meta name="author" content="Alexandra Teleman"/>
@@ -33,7 +33,7 @@ function SeoComponent() {
             <meta property="og:url" content="https://alexandra-teleman.netlify.app/"/>
             <meta property="og:type" content="website"/>
             <meta property="og:title" content="Alexandra Teleman - Psihoterapeut | Iași"/>
-            <meta property="og:description" content="Alexandra mă numesc și sunt psihoterapeut, cabinetul este deschis pentru ședințe personalizate de psihoterapie și consiliere pentru adulți. Învinge depresia și anxietatea."/>
+            <meta property="og:description" content="Alexandra mă numesc și sunt psihoterapeut, cabinetul este deschis pentru ședințe personalizate de psihoterapie și consiliere pentru adulți. Investește-n tine!"/>
             <meta property="og:image" content={imagineFundal}/>
 	          <meta property="og:image:width" content="1200"/>
 	          <meta property="og:image:height" content="630"></meta>
@@ -42,7 +42,7 @@ function SeoComponent() {
             <meta property="twitter:card" content="summary_large_image"/>
             <meta property="twitter:url" content="https://alexandra-teleman.netlify.app/"/>
             <meta property="twitter:title" content="Alexandra Teleman - Psihoterapeut | Iași"/>
-            <meta property="twitter:description" content="Alexandra mă numesc și sunt psihoterapeut, cabinetul este deschis pentru ședințe personalizate de psihoterapie și consiliere pentru adulți. Învinge depresia și anxietatea."/>
+            <meta property="twitter:description" content="Alexandra mă numesc și sunt psihoterapeut, cabinetul este deschis pentru ședințe personalizate de psihoterapie și consiliere pentru adulți. Investește-n tine!"/>
             <meta property="og:image" content={imagineFundal}/>
           </Helmet>
         </div>
