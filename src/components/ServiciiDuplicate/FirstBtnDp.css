@@ -71,3 +71,15 @@
   }
 
 }
+
+@media screen and (max-width: 400px) {
+
+  .ModalTitle{
+    font-size: 1.75rem !important;
+  }
+  
+  .ModalText{
+    font-weight: 250 !important;
+  }
+
+}
