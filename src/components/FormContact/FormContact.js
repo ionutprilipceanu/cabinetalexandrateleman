@@ -38,7 +38,7 @@ class FormContact extends Component {
       method="post" 
       netlify-honeypot="bot-field" 
       data-netlify="true" 
-      name="last-form-contact-up" 
+      name="person" 
       // action="/thank-you" //mesaj de informare dupa submit
       >
         <input type="hidden" name="bot-field" />
