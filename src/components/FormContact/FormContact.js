@@ -42,7 +42,7 @@ class FormContact extends Component {
       // action="/thank-you" //mesaj de informare dupa submit
       >
         <input type="hidden" name="bot-field" />
-        <input type="hidden" name="form-name" value="last-form-contact-up"  />
+        <input type="hidden" name="form-name" value="person"  />
       <Fade left cascade>
         <div className="titluFrm"><h3>Formular de contact</h3></div>
         <Form.Row>
