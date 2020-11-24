@@ -62,12 +62,12 @@
 
   .ModalTitle{
     text-align: center ;
-    margin-top: 15%;
+    margin-top: 15% !important;
   }
   
   .ModalText{
     text-align: justify;
-    margin: 10%;
+    margin: 10% !important;
   }
 
 }

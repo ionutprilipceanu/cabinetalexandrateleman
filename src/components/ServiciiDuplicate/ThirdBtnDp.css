@@ -36,12 +36,12 @@
 
 .ModalTitle{
   text-align: center;
-  margin-top: 2.5%;
+  margin-top: 2.5% !important;
 }
 
 .ModalText{
   text-align: justify;
-  margin: 5%;
+  margin: 5% !important;
 }
 
 .CloseModal{
@@ -62,13 +62,13 @@
 @media screen and (max-width: 650px) {
 
   .ModalTitle{
-    text-align: center;
-    margin-top: 15%;
+    text-align: center ;
+    margin-top: 15% !important;
   }
   
   .ModalText{
     text-align: justify;
-    margin: 10%;
+    margin: 10% !important;
   }
 
 }
