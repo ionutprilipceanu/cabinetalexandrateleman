@@ -41,7 +41,7 @@
 
 .ModalText{
   text-align: justify;
-  margin: 5%;
+  margin: 5% 5% 2.5% !important;
 }
 
 .CloseModal{
