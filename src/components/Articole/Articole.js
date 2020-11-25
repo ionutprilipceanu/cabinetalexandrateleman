@@ -1,7 +1,12 @@
 import React, { Component } from 'react'
 import "./Articole.css"
 import { Card, Button } from 'react-bootstrap'
-import decor from "..//..//..//static/images/img-cover.jpg"
+import pierderi from "..//..//..//static/images/articole/pierderi.jpg"
+import neascultare from "..//..//..//static/images/articole/neascultare.jpg"
+import oglinda from "..//..//..//static/images/articole/oglinda.jpg"
+import prostia from "..//..//..//static/images/articole/prostia.jpg"
+import stres from "..//..//..//static/images/articole/stres.jpg"
+
 
 
 import Fade from "react-reveal/Fade"
@@ -20,7 +25,7 @@ class ServiciiComponent extends Component {
         <Fade>
           <div className="cardStyle">
             <Card style={{ width: '18rem', margin: '5%' }}>
-              <Card.Img variant="top" src={decor} />
+              <Card.Img variant="top" src={pierderi} />
               <Card.Body>
                 <Card.Title>Durerea cauzată de pierderi</Card.Title>
                   <Card.Text>
@@ -31,7 +36,7 @@ class ServiciiComponent extends Component {
             </Card>
 
             <Card style={{ width: '18rem', margin: '5%' }}>
-              <Card.Img variant="top" src={decor} />
+              <Card.Img variant="top" src={neascultare} />
               <Card.Body>
                 <Card.Title>Ascultă-mă ca să te-ascult</Card.Title>
                   <Card.Text>
@@ -42,7 +47,7 @@ class ServiciiComponent extends Component {
             </Card>
             
             <Card style={{ width: '18rem', margin: '5%' }}>
-              <Card.Img variant="top" src={decor} />
+              <Card.Img variant="top" src={prostia} />
               <Card.Body>
                 <Card.Title>Cum să tolerăm prostia?</Card.Title>
                   <Card.Text>
@@ -57,7 +62,7 @@ class ServiciiComponent extends Component {
           <div className="cardStyle">
 
             <Card style={{ width: '18rem', margin: '5%' }}>
-              <Card.Img variant="top" src={decor} />
+              <Card.Img variant="top" src={oglinda} />
               <Card.Body>
                 <Card.Title>Cum se formează imaginea corporală negativă ?</Card.Title>
                   <Card.Text>
@@ -68,7 +73,7 @@ class ServiciiComponent extends Component {
             </Card>
 
             <Card style={{ width: '18rem', margin: '5%' }}>
-              <Card.Img variant="top" src={decor} />
+              <Card.Img variant="top" src={stres} />
               <Card.Body>
                 <Card.Title>De la stres la psihosomatizare</Card.Title>
                   <Card.Text>
