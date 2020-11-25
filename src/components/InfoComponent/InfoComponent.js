@@ -26,7 +26,7 @@ class InfoComponent extends Component {
           
 
           <p>
-          Bună! <br/> Alexandra este numele meu și sunt psihoterapeut acreditat în <i>Hipnoză Clinică și Terapie Ericksoniană</i>, membru în Colegiul Psihologilor din România, am urmat cursurile a două mastere din cadrul Universității Alexandru Ioan Cuza din Iași, Facultatea de Psihologie și Științe ale Educației, obținând titlurile de masterat în <i>Psihologie Clinică</i> respectiv masterat în <i>Relații Umane și Comunicare</i>. 
+          Bună! <br/> Eu sunt Alexandra și sunt psihoterapeut acreditat în <i>Hipnoză Clinică și Terapie Ericksoniană</i>, membru în Colegiul Psihologilor din România, am urmat cursurile a două mastere din cadrul Universității Alexandru Ioan Cuza din Iași, Facultatea de Psihologie și Științe ale Educației, obținând titlurile de masterat în <i>Psihologie Clinică</i> respectiv masterat în <i>Relații Umane și Comunicare</i>. 
           </p>
 
           <p>
