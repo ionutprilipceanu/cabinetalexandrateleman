@@ -11,7 +11,26 @@
   background-color: rgb(199,233,255);
 }
 
+.title-Card-title {
+  font-weight: bolder !important;
+}
+
 .cardStyle {
   display:flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
+  background-color: rgb(240,240,240);
+}
+
+.card-Container {
+  margin: 0 2.5%;
+}
+
+@media screen and (max-width: 1230px) {
+  .cardStyle {
+    display:flex;
+    flex-direction: column
+  }
 }

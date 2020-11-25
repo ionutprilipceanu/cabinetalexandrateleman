@@ -24,21 +24,21 @@ class ServiciiComponent extends Component {
 
         <Fade>
           <div className="cardStyle">
-            <Card style={{ width: '18rem', margin: '5%' }}>
+            <Card className="card-Container" style={{ width: '21rem'}}>
               <Card.Img variant="top" src={pierderi} />
               <Card.Body>
-                <Card.Title>Durerea cauzată de pierderi</Card.Title>
+                <Card.Title className="title-Card-title">Durerea cauzată de pierderi</Card.Title>
                   <Card.Text>
-                  "Viața normală este o viață cu probleme".  Aceasta este fraza cu care mentorul meu obișnuia să înceapă un discurs. 
+                  Viața normală este o viață cu probleme".  Aceasta este fraza cu care mentorul meu obișnuia să înceapă un discurs. 
                   </Card.Text>
                 <Button variant="dark">Citește mai mult</Button>
               </Card.Body>
             </Card>
 
-            <Card style={{ width: '18rem', margin: '5%' }}>
+            <Card className="card-Container" style={{ width: '21rem'}}>
               <Card.Img variant="top" src={neascultare} />
               <Card.Body>
-                <Card.Title>Ascultă-mă ca să te-ascult</Card.Title>
+                <Card.Title className="title-Card-title">Ascultă-mă ca să te-ascult</Card.Title>
                   <Card.Text>
                   Te-ai întrebat vreodată dacă ești un bun ascultător? Ce anume face diferența dintre un bun ascultător și un  ascultător jalnic? 
                   </Card.Text>
@@ -46,10 +46,10 @@ class ServiciiComponent extends Component {
               </Card.Body>
             </Card>
             
-            <Card style={{ width: '18rem', margin: '5%' }}>
+            <Card className="card-Container" style={{ width: '21rem'}}>
               <Card.Img variant="top" src={prostia} />
               <Card.Body>
-                <Card.Title>Cum să tolerăm prostia?</Card.Title>
+                <Card.Title className="title-Card-title">Cum să tolerăm prostia?</Card.Title>
                   <Card.Text>
                   Plecând de la binele cunoscut proverb românesc care spune ,,Prostia este omenească" putem înțelege foarte multe lucruri. 
                   </Card.Text>
@@ -61,21 +61,21 @@ class ServiciiComponent extends Component {
 
           <div className="cardStyle">
 
-            <Card style={{ width: '18rem', margin: '5%' }}>
+            <Card className="card-Container" style={{ width: '21rem'}}>
               <Card.Img variant="top" src={oglinda} />
               <Card.Body>
-                <Card.Title>Cum se formează imaginea corporală negativă ?</Card.Title>
+                <Card.Title className="title-Card-title">Imaginea corporală negativă</Card.Title>
                   <Card.Text>
-                  Oamenii nu se trezesc de la o zi la alta, spunând că aspectul lor este inadecvat. Imaginea corporală se dezvoltă gradual, începând încă din perioada copilăriei. 
+                  Oamenii nu se trezesc de la o zi la alta, spunând că aspectul lor este inadecvat. Imaginea corporală se dezvoltă gradual.
                   </Card.Text>
                 <Button variant="dark">Citește mai mult</Button>
               </Card.Body>
             </Card>
 
-            <Card style={{ width: '18rem', margin: '5%' }}>
+            <Card className="card-Container" style={{ width: '21rem'}}>
               <Card.Img variant="top" src={stres} />
               <Card.Body>
-                <Card.Title>De la stres la psihosomatizare</Card.Title>
+                <Card.Title className="title-Card-title">De la stres la psihosomatizare</Card.Title>
                   <Card.Text>
                   Trăim în era vitezei! Dezvoltarea societății prin schimbarea rolurilor pune presiune atât pe femei cât și pe bărbați. 
                   </Card.Text>
