@@ -33,7 +33,7 @@ function ServiciiDp() {
 
               <Card className="carder_bodyDp">
                 <Card.Body>
-                  <Card.Subtitle className="cardSubtitleDp">Terapie de familie</Card.Subtitle>
+                  <Card.Subtitle className="cardSubtitleDp">Terapie de cuplu</Card.Subtitle>
                   <div className="bottomLineDp"></div>
                   <Card.Text className="cardTextDp">
                     Această formă de terapie are în prin plan reconcilierea cuplului, familiei și tot ce ține de problemele familiale întâlnite zi de zi...
