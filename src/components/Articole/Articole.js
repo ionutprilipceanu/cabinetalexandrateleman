@@ -22,36 +22,59 @@ class ServiciiComponent extends Component {
             <Card style={{ width: '18rem', margin: '5%' }}>
               <Card.Img variant="top" src={decor} />
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>Durerea cauzată de pierderi</Card.Title>
                   <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
+                  "Viața normală este o viață cu probleme".  Aceasta este fraza cu care mentorul meu obișnuia să înceapă un discurs. 
                   </Card.Text>
-                <Button variant="dark">Go somewhere</Button>
+                <Button variant="dark">Citește mai mult</Button>
               </Card.Body>
             </Card>
 
             <Card style={{ width: '18rem', margin: '5%' }}>
               <Card.Img variant="top" src={decor} />
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>Ascultă-mă ca să te-ascult</Card.Title>
                   <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
+                  Te-ai întrebat vreodată dacă ești un bun ascultător? Ce anume face diferența dintre un bun ascultător și un  ascultător jalnic? 
                   </Card.Text>
-                <Button variant="dark">Go somewhere</Button>
+                <Button variant="dark">Citește mai mult</Button>
+              </Card.Body>
+            </Card>
+            
+            <Card style={{ width: '18rem', margin: '5%' }}>
+              <Card.Img variant="top" src={decor} />
+              <Card.Body>
+                <Card.Title>Cum să tolerăm prostia?</Card.Title>
+                  <Card.Text>
+                  Plecând de la binele cunoscut proverb românesc care spune ,,Prostia este omenească" putem înțelege foarte multe lucruri. 
+                  </Card.Text>
+                <Button variant="dark">Citește mai mult</Button>
+              </Card.Body>
+            </Card>
+
+          </div>
+
+          <div className="cardStyle">
+
+            <Card style={{ width: '18rem', margin: '5%' }}>
+              <Card.Img variant="top" src={decor} />
+              <Card.Body>
+                <Card.Title>Cum se formează imaginea corporală negativă ?</Card.Title>
+                  <Card.Text>
+                  Oamenii nu se trezesc de la o zi la alta, spunând că aspectul lor este inadecvat. Imaginea corporală se dezvoltă gradual, începând încă din perioada copilăriei. 
+                  </Card.Text>
+                <Button variant="dark">Citește mai mult</Button>
               </Card.Body>
             </Card>
 
             <Card style={{ width: '18rem', margin: '5%' }}>
               <Card.Img variant="top" src={decor} />
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>De la stres la psihosomatizare</Card.Title>
                   <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
+                  Trăim în era vitezei! Dezvoltarea societății prin schimbarea rolurilor pune presiune atât pe femei cât și pe bărbați. 
                   </Card.Text>
-                <Button variant="dark">Go somewhere</Button>
+                <Button variant="dark">Citește mai mult</Button>
               </Card.Body>
             </Card>
           </div>
