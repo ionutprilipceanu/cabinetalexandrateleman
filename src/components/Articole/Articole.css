@@ -20,7 +20,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding: 5%;
+  padding: 2.5% 2.5% 0 2.5%;
   background-color: rgb(240,240,240);
 }
 
@@ -28,9 +28,15 @@
   margin: 0 2.5%;
 }
 
-@media screen and (max-width: 1230px) {
+@media screen and (max-width: 650px) {
+
+  .titluArticole{
+    margin-top: 30% !important;
+  }
+
   .cardStyle {
     display:flex;
-    flex-direction: column
+    flex-direction: column;
+    padding: 2.5% 2.5% 0 2.5%;
   }
 }

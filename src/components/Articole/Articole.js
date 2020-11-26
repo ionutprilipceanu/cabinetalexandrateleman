@@ -24,18 +24,8 @@ class ServiciiComponent extends Component {
 
         <Fade>
           <div className="cardStyle">
-            <Card className="card-Container" style={{ width: '21rem'}}>
-              <Card.Img variant="top" src={pierderi} />
-              <Card.Body>
-                <Card.Title className="title-Card-title">Durerea cauzată de pierderi</Card.Title>
-                  <Card.Text>
-                  Viața normală este o viață cu probleme".  Aceasta este fraza cu care mentorul meu obișnuia să înceapă un discurs. 
-                  </Card.Text>
-                <Button variant="dark">Citește mai mult</Button>
-              </Card.Body>
-            </Card>
 
-            <Card className="card-Container" style={{ width: '21rem'}}>
+            <Card className="card-Container" style={{ width: '20rem'}}>
               <Card.Img variant="top" src={neascultare} />
               <Card.Body>
                 <Card.Title className="title-Card-title">Ascultă-mă ca să te-ascult</Card.Title>
@@ -46,7 +36,7 @@ class ServiciiComponent extends Component {
               </Card.Body>
             </Card>
             
-            <Card className="card-Container" style={{ width: '21rem'}}>
+            <Card className="card-Container" style={{ width: '20rem'}}>
               <Card.Img variant="top" src={prostia} />
               <Card.Body>
                 <Card.Title className="title-Card-title">Cum să tolerăm prostia?</Card.Title>
@@ -61,7 +51,22 @@ class ServiciiComponent extends Component {
 
           <div className="cardStyle">
 
-            <Card className="card-Container" style={{ width: '21rem'}}>
+            <Card className="card-Container" style={{ width: '20rem'}}>
+              <Card.Img variant="top" src={pierderi} />
+              <Card.Body>
+                <Card.Title className="title-Card-title">Durerea cauzată de pierderi</Card.Title>
+                  <Card.Text>
+                  Viața normală este o viață cu probleme".  Aceasta este fraza cu care mentorul meu obișnuia să înceapă un discurs. 
+                  </Card.Text>
+                <Button variant="dark">Citește mai mult</Button>
+              </Card.Body>
+            </Card>
+
+          </div>
+
+          <div className="cardStyle">
+
+            <Card className="card-Container" style={{ width: '20rem'}}>
               <Card.Img variant="top" src={oglinda} />
               <Card.Body>
                 <Card.Title className="title-Card-title">Imaginea corporală negativă</Card.Title>
@@ -72,7 +77,7 @@ class ServiciiComponent extends Component {
               </Card.Body>
             </Card>
 
-            <Card className="card-Container" style={{ width: '21rem'}}>
+            <Card className="card-Container" style={{ width: '20rem'}}>
               <Card.Img variant="top" src={stres} />
               <Card.Body>
                 <Card.Title className="title-Card-title">De la stres la psihosomatizare</Card.Title>
