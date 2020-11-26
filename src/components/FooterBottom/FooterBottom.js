@@ -18,7 +18,7 @@ function Footer() {
       </ul> 
 
       <ul className="componentePhone">
-        <p>Alexandra Teleman - Psihoterapeut &copy;Iași România 2021</p>
+        <p> Teleman - Psihoterapeut &copy;Iași România 2021</p>
       </ul>
 
       <ul className="logoItemsPhone">
