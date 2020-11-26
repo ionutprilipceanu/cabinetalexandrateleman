@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import SeoComponent from "../components/SeoComponent/SeoComponent"
+import SeoComponent from "..//..//components/SeoComponent/SeoComponent"
 import NavBar from "../components/NavBar/NavBar"
 import FooterBottom from "../components/FooterBottom/FooterBottom"
 import "..//articole/style-edit.css"
