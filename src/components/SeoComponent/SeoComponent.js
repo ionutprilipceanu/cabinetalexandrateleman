@@ -19,7 +19,7 @@ function SeoComponent() {
             <meta property="og:type" content="website"/>
             <meta property="og:title" content="Alexandra Teleman - Psihoterapeut | Iași"/>
             <meta property="og:site_name" content="Alexandra Teleman - Psihoterapeut | Iași"></meta>
-            <meta property="og:image" content="https://www.newharbinger.com/sites/default/files/styles/article_image_main/public/article_assets/sadmanlookingthroughwindow_0.jpg?itok=-GJuw6Av"/>
+            <meta property="og:image" content={imagineFundal}/>
             <meta property="og:image:width" content="1200"/>
             <meta property="og:image:height" content="630"/>
             <link rel="icon" href={favicon} />
