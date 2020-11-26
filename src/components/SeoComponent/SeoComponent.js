@@ -13,7 +13,7 @@ function SeoComponent() {
             <meta name="title" content="Alexandra Teleman - Psihoterapeut | Iași"/>
             <meta name="description" content="Mă numesc Alexandra și sunt psihoterapeut. Cabinetul este deschis pentru ședințe personalizate, de psihoterapie și coaching, pentru adulți și adolescenți. Investește în tine!"/>
             <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-            <meta name="keywords" content="psiholog iasi, psihoterapeut iasi, psiholog, depresie, anxietate, tristețe, dezvoltare personală, psihoterapie, anxietate simptome, terapie de familie, terapie de cuplu, terapie online, terapie individuala"></meta>
+            <meta name="keywords" content="psiholog iasi, psiholog online, psiholog de familie, psihoterapeut iasi, psiholog, depresie, anxietate, tristețe, dezvoltare personală, psihoterapie, anxietate simptome, terapie de familie, terapie de cuplu, terapie online, terapie individuala"></meta>
             <meta name="author" content="Alexandra Teleman"/>
             <meta property="og:locale" content="ro_RO"/>
             <meta property="og:type" content="website"/>
