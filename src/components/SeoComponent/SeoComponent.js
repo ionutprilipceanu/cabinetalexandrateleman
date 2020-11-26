@@ -1,7 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import favicon from '..//..//..//static/images/favicon.png'
-import imagineFundal from "..//..//..//static/images/cover-img-update.jpg" 
+import imagineFundal from "..//..//..//static/images/imaginea-fundal.jpg" 
 
 
 function SeoComponent() {
@@ -23,6 +23,7 @@ function SeoComponent() {
             <meta property="og:image:width" content="1200"/>
             <meta property="og:image:height" content="630"/>
             <link rel="icon" href={favicon} />
+
 
 
             {/* <!-- Open Graph / Facebook --> */}
