@@ -1,7 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import favicon from '..//..//..//static/images/favicon.png'
-import imagineFundal from "..//..//..//static/images/cover-img-update.jpg" 
+import imagineFundal from "..//..//..//static/images/articole/neascultare.jpg" 
 
 
 function SeoComponent() {
