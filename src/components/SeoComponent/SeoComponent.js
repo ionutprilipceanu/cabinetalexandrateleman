@@ -23,9 +23,6 @@ function SeoComponent() {
             <meta property="og:image:width" content="1200"/>
             <meta property="og:image:height" content="630"/>
             <link rel="icon" href={favicon} />
-            <meta property="og:image" content={imagineFundal}/>
-	          <meta property="og:image:width" content="1200"/>
-	          <meta property="og:image:height" content="630"></meta> 
 
 
             {/* <!-- Open Graph / Facebook --> */}
@@ -34,7 +31,7 @@ function SeoComponent() {
             <meta property="og:type" content="website"/>
             <meta property="og:title" content="Alexandra Teleman - Psihoterapeut | Iași"/>
             <meta property="og:description" content="Mă numesc Alexandra și sunt psihoterapeut. Cabinetul este deschis pentru ședințe personalizate, de psihoterapie și coaching, pentru adulți și adolescenți. Investește în tine!"/>
-            <meta property="og:image" content={imagineFundal}/>
+            {/* <meta property="og:image" content={imagineFundal}/> */}
 	          <meta property="og:image:width" content="1200"/>
 	          <meta property="og:image:height" content="630"></meta>
 
@@ -43,7 +40,7 @@ function SeoComponent() {
             <meta property="twitter:url" content="https://alexandra-teleman.netlify.app/"/>
             <meta property="twitter:title" content="Alexandra Teleman - Psihoterapeut | Iași"/>
             <meta property="twitter:description" content="Mă numesc Alexandra și sunt psihoterapeut. Cabinetul este deschis pentru ședințe personalizate, de psihoterapie și coaching, pentru adulți și adolescenți. Investește în tine!"/>
-            <meta property="og:image" content={imagineFundal}/>
+            {/* <meta property="og:image" content={imagineFundal}/> */}
           </Helmet>
         </div>
   )
