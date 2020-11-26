@@ -28,6 +28,16 @@
   margin: 0 2.5%;
 }
 
+.link-articole {
+  color: white;
+}
+
+.link-articole:hover {
+  text-decoration: none !important;
+  color: white;
+  opacity: 0.85;
+}
+
 @media screen and (max-width: 650px) {
 
   .titluArticole{
