@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import SeoComponent from "..//..//components/SeoComponent/SeoComponent"
-import NavBar from "../components/NavBar/NavBar"
-import FooterBottom from "../components/FooterBottom/FooterBottom"
+import NavBar from "..//../components/NavBar/NavBar"
+import FooterBottom from "..//../components/FooterBottom/FooterBottom"
 import "..//articole/style-edit.css"
 import stres from "..//..//..//static/images/articole/stres.jpg"
 import Fade from "react-reveal/Fade"
