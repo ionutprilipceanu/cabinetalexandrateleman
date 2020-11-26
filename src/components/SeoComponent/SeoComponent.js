@@ -1,7 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import favicon from '..//..//..//static/images/favicon.png'
-import imagineFundal from "..//..//..//static/images/cover-img-update.jpg" 
+// import imagineFundal from "..//..//..//static/images/cover-img-update.jpg" 
 
 
 function SeoComponent() {
@@ -19,12 +19,10 @@ function SeoComponent() {
             <meta property="og:type" content="website"/>
             <meta property="og:title" content="Alexandra Teleman - Psihoterapeut | Iași"/>
             <meta property="og:site_name" content="Alexandra Teleman - Psihoterapeut | Iași"></meta>
-            <meta property="og:image" content={imagineFundal}/>
+            <meta property="og:image" content="https://alexandra-teleman.netlify.app/static/homePrimar-bd3dd5fcf5d9e96ec7c2f4de8482bdc2.jpg"/>
             <meta property="og:image:width" content="1200"/>
             <meta property="og:image:height" content="630"/>
             <link rel="icon" href={favicon} />
-
-
 
             {/* <!-- Open Graph / Facebook --> */}
             <meta property="og:type" content="website"/>
