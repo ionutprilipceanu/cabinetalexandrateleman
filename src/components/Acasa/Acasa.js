@@ -3,8 +3,8 @@ import './Acasa.css'
 import Fade from "react-reveal/Fade"
 // import favicon from '..//..//..//..//static/images/favicon.png'
 import favicon from '..//..//..//static/images/favicon.png'
-import homePrimar from "..//Acasa/images/primaPagina.jpg"
-import homeSecundar from "..//Acasa/images/primaPagina.jpg"
+import homePrimar from "..//Acasa/images/homePrimar.jpg"
+import homeSecundar from "..//Acasa/images/homeSecundar.jpg"
 import Link from 'gatsby-link';
 
 class Acasa extends Component {
