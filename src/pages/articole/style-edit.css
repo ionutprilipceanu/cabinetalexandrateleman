@@ -30,7 +30,7 @@
 @media screen and (max-width: 650px) {
 
   .titluArticoleScrise{
-    margin: 30% 5% !important;
+    margin: 30% 5% 0 5%!important
   }
 
   .text-articole {
