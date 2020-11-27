@@ -21,7 +21,7 @@ class Corpul extends Component {
           <div className="text-articole">
           
             <p>
-              Oamenii nu se trezesc de la o zi la alta, spunând că aspectul lor este inadecvat. Imaginea corporală se dezvoltă gradual, începând încă din perioada copilăriei. Există studii care au descoperit insatisfacție a imaginii corporale, la copii cu vârsta de 4 ani. Există o serie de factori care sunt răspunzători în dezvoltarea imaginii corporale. Temperamentul, predispoziția genetică cât și atributele fizice reale, contribuie la dezvoltarea imaginii corporale.  
+              Oamenii nu se trezesc de la o zi la alta, spunând că aspectul lor este inadecvat. Imaginea corporală se dezvoltă gradual, începând încă din perioada copilăriei. Există studii care au descoperit insatisfacție a imaginii corporale, la copii cu vârsta de 4 ani. Există o serie de factori, care sunt răspunzători în dezvoltarea imaginii corporale. Temperamentul, predispoziția genetică cât și atributele fizice, reale, contribuie la dezvoltarea imaginii corporale.  
             </p>
             
             <p>

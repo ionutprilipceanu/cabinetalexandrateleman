@@ -21,7 +21,7 @@ class Prostia extends Component {
           <div className="text-articole">
           
             <p>
-              Plecând de la binele cunoscut proverb românesc care spune ,,Prostia este omenească" putem înțelege foarte multe lucruri. În primul rând putem înțelege că prostia este un efect cauzat de om. În al doilea rând înțelegem că omul stabilește ce e prostie și ce nu e prostie. În al treilea rând putem înțelege că prostia sălășluiește printre oameni. Cu alte cuvinte poate exista între două persoane sau între cel puțin două repere dintre care unul este om. Bineînțeles omul stabilește când e prostie și când nu e. 
+              Plecând de la binele cunoscut proverb românesc care spune "Prostia este omenească" putem înțelege foarte multe lucruri. În primul rând putem înțelege că prostia este un efect cauzat de om. În al doilea rând înțelegem că omul stabilește ce e prostie și ce nu e prostie. În al treilea rând, putem înțelege că prostia sălășluiește printre oameni. Cu alte cuvinte, poate exista între două persoane sau între cel puțin două repere, dintre care unul este om. Bineînțeles, omul stabilește când e prostie și când nu e. 
             </p>
             
             <p>
@@ -36,7 +36,7 @@ class Prostia extends Component {
             </Fade>
 
             <p> 
-              Acum realizez că  raspunsul potrivit era da, poate. O carte bună precum ,,Despre inimă și alte eseuri" a lui Andrei Pleșu, poate! Capitolul patru din această carte mi-a domolit revolta asupra prostiei. Cum altfel să se fi întâmplat când chiar Pleșu, afirma că prostia există pur și simplu, indiferent de nivelul educației sau al inteligenței, diferența o face doar nivelul de manifestare. Cum o fi prostia în cazul intelectualilor comparativ cu prostia angajaților de la drumuri și poduri?   O fi mai mare, o fi mai mică? Despre inimă și alte eseuri, o carte care te îmbie la reflecție, la înțelegere și acceptare. <br/>
+              Acum realizez că  raspunsul potrivit era da, poate. O carte bună precum "Despre inimă și alte eseuri" a lui Andrei Pleșu, poate! Capitolul patru din această carte mi-a domolit revolta asupra prostiei. Cum altfel să se fi întâmplat când chiar Pleșu, afirma că prostia există pur și simplu, indiferent de nivelul educației sau al inteligenței, diferența o face doar nivelul de manifestare. Cum o fi prostia în cazul intelectualilor comparativ cu prostia angajaților de la drumuri și poduri?   O fi mai mare, o fi mai mică? Despre inimă și alte eseuri, o carte care te îmbie la reflecție, la înțelegere și acceptare. <br/>
               Citește, învață, acceptă, și nu uita  <br/>
               <i>Investește-n tine! </i> 
             </p>
