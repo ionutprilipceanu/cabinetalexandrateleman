@@ -3,7 +3,6 @@ import NavBar from "..//../components/NavBar/NavBar"
 import FooterBottom from "..//../components/FooterBottom/FooterBottom"
 import "..//articole/style-edit.css"
 import neascultare from "..//..//..//static/images/articole/neascultare.jpg"
-//import profilpoza from "..//..//..//static/images/articole/neascultareMeta.jpg"
 import Fade from "react-reveal/Fade"
 import SeoComponentArticle from "..//..//components/SeoComponentArticle/SeoComponentArticle"
 

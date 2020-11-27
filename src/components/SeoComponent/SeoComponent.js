@@ -1,7 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import favicon from '..//..//..//static/images/favicon.png'
-//import imagineFundal from "..//..//..//static/images/cover-img-update.jpg" 
+import imagineFundal from "..//..//..//static/images/cover-img-update.jpg" 
 
 
 function SeoComponent() {
@@ -19,7 +19,7 @@ function SeoComponent() {
             <meta property="og:type" content="website"/>
             <meta property="og:title" content="Alexandra Teleman - Psihoterapeut | Iași"/>
             <meta property="og:site_name" content="Alexandra Teleman - Psihoterapeut | Iași"></meta>
-            <meta property="og:image" content="..//..//..//static/images/cover-img-update.jpg"/>
+            <meta property="og:image" content={imagineFundal}/>
             <meta property="og:image:width" content="1200"/>
             <meta property="og:image:height" content="630"/>
             <meta property="og:image:type" content="image/jpeg" />
