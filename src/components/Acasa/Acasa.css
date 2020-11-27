@@ -185,6 +185,10 @@
     margin-top: 12.5%;
   }
 
+  .background-Secundar img {
+    border: solid 1px rgb(167,219,232);
+  }
+
   .background-Primar {
     display: none;
   }
