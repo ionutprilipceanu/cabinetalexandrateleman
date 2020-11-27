@@ -27,7 +27,7 @@ function SeoComponentArticle() {
 
             {/* <!-- Open Graph / Facebook --> */}
             <meta property="og:type" content="website"/>
-            <meta property="og:url" content="https://alexandra-teleman.netlify.app/"/>
+            <meta property="og:url" content="https://www.psiholog-iasi-teleman.com/"/>
             <meta property="og:type" content="website"/>
             <meta property="og:title" content="Alexandra Teleman - Psihoterapeut | Iași"/>
             <meta property="og:description" content="Mă numesc Alexandra și sunt psihoterapeut. Cabinetul este deschis pentru ședințe personalizate, de psihoterapie și coaching, pentru adulți și adolescenți. Investește în tine!"/>
@@ -37,7 +37,7 @@ function SeoComponentArticle() {
 
             {/* <!-- Twitter --> */}
             <meta property="twitter:card" content="summary_large_image"/>
-            <meta property="twitter:url" content="https://alexandra-teleman.netlify.app/"/>
+            <meta property="twitter:url" content="https://www.psiholog-iasi-teleman.com/"/>
             <meta property="twitter:title" content="Alexandra Teleman - Psihoterapeut | Iași"/>
             <meta property="twitter:description" content="Mă numesc Alexandra și sunt psihoterapeut. Cabinetul este deschis pentru ședințe personalizate, de psihoterapie și coaching, pentru adulți și adolescenți. Investește în tine!"/>
             {/* <meta property="og:image" content={imagineArticol}/> */}
