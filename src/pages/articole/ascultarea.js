@@ -25,7 +25,7 @@ class Ascultarea extends Component {
             </p>
             
             <p>
-              Desigur, pot exista mulți alți factori pentru care dialogul cu unele persoane ne displace, dar acum o să ne focusăm exclusiv pe stilul comunicării. Capacitatea de ascultare poate îmbunătăți relațiile cu cei din jur. Pentru a-ți răspunde la prima întrebare te invit să faci un mic experiment: O să am rugămintea să intri în rolul de ascultătorului cu prima persoană cu care urmează să interacționezi, nu înainte de a termina de citit acest paragraf. 
+              Desigur, pot exista mulți alți factori pentru care dialogul cu unele persoane ne displace, dar acum o să ne focusăm exclusiv pe stilul comunicării. Capacitatea de ascultare poate îmbunătăți relațiile cu cei din jur. Pentru a-ți răspunde la prima întrebare te invit să faci un mic experiment: O să am rugămintea să intri în rolul ascultătorului cu prima persoană cu care urmează să interacționezi, nu înainte de a termina de citit acest paragraf. 
             </p>
 
             <Fade bottom cascade>
