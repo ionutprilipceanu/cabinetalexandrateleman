@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import SeoComponent from "..//..//components/SeoComponent/SeoComponent"
+import SeoComponentArticle from "..//..//components/SeoComponentArticle/SeoComponentArticle"
 import NavBar from "..//../components/NavBar/NavBar"
 import FooterBottom from "..//../components/FooterBottom/FooterBottom"
 import "..//articole/style-edit.css"
@@ -10,7 +10,7 @@ class Pierderea extends Component {
   render() {
     return (
       <div> 
-        <SeoComponent/>
+        <SeoComponentArticle/>
         <NavBar />
         <article>
           <div className="titluArticoleScrise">
