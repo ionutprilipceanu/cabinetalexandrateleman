@@ -45,7 +45,7 @@ class ServiciiComponent extends Component {
               <Card.Body>
                 <Card.Title className="title-Card-title">Cum să tolerăm prostia?</Card.Title>
                   <Card.Text>
-                  Plecând de la binele cunoscut proverb românesc care spune ,,Prostia este omenească" putem înțelege foarte multe lucruri. 
+                  Plecând de la binele cunoscut proverb românesc care spune "Prostia este omenească" putem înțelege foarte multe lucruri. 
                   </Card.Text>
                   <Button variant="dark"><Link 
                     to="/articole/prostia/" 
