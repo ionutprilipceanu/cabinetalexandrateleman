@@ -25,9 +25,7 @@ export default class index extends Component {
             <meta property="og:site_name" content="Alexandra Teleman - Psihoterapeut | Iași"></meta>
             <meta property="og:image" content={imagineArticol}/>
             <meta property="og:image:width" content="1200"/>
-            <meta property="og:image:height" content="630"/>import Helmet from 'react-helmet'
-import favicon from '..//..//..//static/images/favicon.png'
-import imagineArticol from "..//..//..//static/images/articole/neascultare.jpg" 
+            <meta property="og:image:height" content="630"/>
             <meta property="og:image:type" content="image/jpeg" />
             <link rel="icon" href={favicon} />
 
