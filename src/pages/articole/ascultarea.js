@@ -5,8 +5,8 @@ import "..//articole/style-edit.css"
 import neascultare from "..//..//..//static/images/articole/neascultare.jpg"
 import Fade from "react-reveal/Fade"
 import Helmet from 'react-helmet'
-import favicon from '..//..//static/images/favicon.png'
-import imagineArticol from "..//..//static/images/articole/neascultare.jpg"
+import favicon from '..//..//..//static/images/favicon.png'
+import imagineArticol from "..//..//..//static/images/articole/neascultare.jpg"
 
 class Ascultarea extends Component {
   render() {
@@ -32,7 +32,7 @@ class Ascultarea extends Component {
 
             {/* <!-- Open Graph / Facebook --> */}
             <meta property="og:type" content="website"/>
-            <meta property="og:url" content="https://www.psiholog-iasi-teleman.com/articole/"/>
+            <meta property="og:url" content="https://www.psiholog-iasi-teleman.com/articole/ascultarea/"/>
             <meta property="og:type" content="website"/>
             <meta property="og:title" content="Alexandra Teleman - Psihoterapeut | Iași"/>
             <meta property="og:description" content="Mă numesc Alexandra și sunt psihoterapeut. Cabinetul este deschis pentru ședințe personalizate, de psihoterapie și coaching, pentru adulți și adolescenți. Investește în tine!"/>
@@ -42,7 +42,7 @@ class Ascultarea extends Component {
 
             {/* <!-- Twitter --> */}
             <meta property="twitter:card" content="summary_large_image"/>
-            <meta property="twitter:url" content="https://www.psiholog-iasi-teleman.com/articole/"/>
+            <meta property="twitter:url" content="https://www.psiholog-iasi-teleman.com/articole/ascultarea/"/>
             <meta property="twitter:title" content="Alexandra Teleman - Psihoterapeut | Iași"/>
             <meta property="twitter:description" content="Mă numesc Alexandra și sunt psihoterapeut. Cabinetul este deschis pentru ședințe personalizate, de psihoterapie și coaching, pentru adulți și adolescenți. Investește în tine!"/>
             {/* <meta property="og:image" content={imagineArticol}/> */}
