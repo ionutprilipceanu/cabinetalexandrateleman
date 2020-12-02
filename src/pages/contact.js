@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import SeoComponent from "../components/SeoComponent/SeoComponent"
 import NavBar from "../components/NavBar/NavBar"
 import FormContact from "..//components/FormContact/FormContact"
-// import MapComponent from "..//components/MapComponent/MapComponent"
+import MapComponent from "..//components/MapComponent/MapComponent"
 import FooterBottom from "../components/FooterBottom/FooterBottom"
 
 
@@ -13,7 +13,7 @@ export default class index extends Component {
         <SeoComponent/>
         <NavBar />
         <FormContact />
-        {/* <MapComponent /> */}
+        <MapComponent />
         <FooterBottom />
       </div>
     )
