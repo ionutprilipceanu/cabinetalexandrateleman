@@ -6,7 +6,7 @@ import prostia from "..//..//..//static/images/articole/prostia.jpg"
 import Fade from "react-reveal/Fade"
 import Helmet from 'react-helmet'
 import favicon from '..//..//..//static/images/favicon.png'
-import imagineArticol from "..//..//..//static/images/articole/neascultare.jpg"
+import imagineArticol from "..//..//..//static/images/articole/prostia.jpg"
 
 class Prostia extends Component {
   render() {
