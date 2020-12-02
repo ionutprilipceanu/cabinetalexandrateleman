@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import Helmet from 'react-helmet'
-import favicon from '..//..//..//static/images/favicon.png'
-import imagineArticol from "..//..//..//static/images/articole/neascultare.jpg" 
-import NavBar from "../components/NavBar/NavBar"
+import favicon from '..//..//static/images/favicon.png'
+import imagineArticol from "..//..//static/images/articole/neascultare.jpg"
+import NavBar from "..//components/NavBar/NavBar"
 import Articole from "..//components/Articole/Articole"
 import FooterBottom from "../components/FooterBottom/FooterBottom"
 
