@@ -15,6 +15,10 @@ function Footer() {
         <p>Alexandra Teleman - Psihoterapeut &copy;Iași România 2021</p>
       </ul>
 
+      <ul className="componentePhone">
+        <p>Alexandra Teleman - Psihoterapeut &copy;Iași România 2021</p>
+      </ul>
+
         <Form 
           className="Abonare"
           method="post" 
@@ -55,14 +59,12 @@ function Footer() {
             </Form.Row>
             
             <Button variant="primary" type="submit" className="send_BtnAbn">
-              Aboneaza-te!
+              Trimite
             </Button>
           </Fade>
         </Form>
 
-      <ul className="componentePhone">
-        <p>Alexandra Teleman - Psihoterapeut &copy;Iași România 2021</p>
-      </ul>
+      
 
     </div>
   )
