@@ -1,5 +1,9 @@
 import React from 'react'
 import './FooterBottom.css'
+import { Form } from 'react-bootstrap'
+import Fade from "react-reveal/Fade"
+import { Col } from 'react-bootstrap'
+import { Button } from 'react-bootstrap'
 // import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 // import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 // import Link from 'gatsby-link';
@@ -11,21 +15,55 @@ function Footer() {
         <p>Alexandra Teleman - Psihoterapeut &copy;Iași România 2021</p>
       </ul>
 
-       <ul className="logoItemsDesktop">
-        {/* <li><a href="https://www.linkedin.com/in/ionu%C5%A3-prilipceanu-20534ab0/" target="_blank" rel="noreferrer" className="logoLinkedin"> <FontAwesomeIcon icon={faLinkedin} /> </a></li>
-        <li><a href="https://github.com/ionutprilipceanu" target="_blank" rel="noreferrer" className="logoGithub"> <FontAwesomeIcon icon={faGithub} /> </a></li> */}
-        {/* <li><a href="https://www.facebook.com/Cabinet-Psihologic-Teleman-662227117527601" target="_blank" rel="noreferrer" className="logoFacebook"> <FontAwesomeIcon icon={faFacebook} /> </a></li> */}
-      </ul> 
+        <Form 
+          className="Abonare"
+          method="post" 
+          netlify-honeypot="bot-field" 
+          data-netlify="true" 
+          name="person" 
+          // action="/thank-you" //mesaj de informare dupa submit
+        >
+          <input type="hidden" name="bot-field"/>
+          <input type="hidden" name="form-name" value="person"/>
+
+          <Fade left cascade>
+            <div className="titluAbonare"><h3>Abonează-te!</h3></div>
+            <Form.Row>
+              <Form.Group as={Col} >
+                <Form.Label htmlFor="name" style={{color:"white"}}>Nume</Form.Label>
+                <Form.Control 
+                id="name-input" 
+                type="text" 
+                name="name" 
+                placeholder=""
+                // required onChange={this.handInput}
+                />
+              </Form.Group>
+            </Form.Row>
+          
+            <Form.Row>
+              <Form.Group as={Col}>
+                <Form.Label htmlFor="email" style={{color:"white"}} >Email</Form.Label>
+                <Form.Control 
+                id="address-input" 
+                type="email" 
+                name="address" 
+                placeholder="" 
+                // required onChange={this.handInput}
+                />
+              </Form.Group>
+            </Form.Row>
+            
+            <Button variant="primary" type="submit" className="send_BtnAbn">
+              Aboneaza-te!
+            </Button>
+          </Fade>
+        </Form>
 
       <ul className="componentePhone">
         <p>Alexandra Teleman - Psihoterapeut &copy;Iași România 2021</p>
       </ul>
 
-      <ul className="logoItemsPhone">
-        {/* <li><a href="https://www.linkedin.com/in/ionu%C5%A3-prilipceanu-20534ab0/" target="_blank" rel="noreferrer" className="logoLinkedin"> <FontAwesomeIcon icon={faLinkedin} /> </a></li>
-        <li><a href="https://github.com/ionutprilipceanu" target="_blank" rel="noreferrer" className="logoGithub"> <FontAwesomeIcon icon={faGithub} /> </a></li> */}
-        {/* <li><a href="https://www.facebook.com/Cabinet-Psihologic-Teleman-662227117527601" target="_blank" rel="noreferrer" className="logoFacebook"> <FontAwesomeIcon icon={faFacebook} /> </a></li> */}
-      </ul> 
     </div>
   )
 }
