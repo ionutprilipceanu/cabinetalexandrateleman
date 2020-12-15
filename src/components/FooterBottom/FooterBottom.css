@@ -183,7 +183,10 @@
     margin: 10% 5% 5% 5%;
     padding: 2% 5% 5% 5%;
     width: 90% !important;
+  }
 
+  .send_BtnAbn {
+    width: 100%;
   }
 
 }
