@@ -172,6 +172,7 @@
 
   .componentePhone, .logoItemsPhone{
     display: block;
+    margin: 0;
   }
 
   .componenteDesktop, .logoItemsDesktop{
