@@ -8,7 +8,7 @@
 
 .componenteDesktop {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   list-style-type: none;
   padding: 5% 0;
 }
