@@ -12,7 +12,9 @@ function Footer() {
   return (
     <div className="footer">
       <ul className="componenteDesktop">
-        <p>Alexandra Teleman - Psihoterapeut &copy;Iași România 2021</p>
+        <p>Alexandra Teleman - Psihoterapeut </p>
+        <p> Investește-n tine! </p>
+        <p>&copy;Iași România 2021</p>
       </ul>
 
         <Form 
