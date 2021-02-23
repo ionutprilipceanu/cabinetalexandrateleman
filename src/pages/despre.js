@@ -9,7 +9,7 @@ export default class index extends Component {
   render() {
     return (
       <div>
-        <SeoComponent/>
+        <SeoComponent />
         <NavBar />
         <InfoComponent />
         <FooterBottom />

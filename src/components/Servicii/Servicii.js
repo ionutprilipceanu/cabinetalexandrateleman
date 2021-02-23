@@ -8,16 +8,16 @@ import ThirdBtn from "..//Servicii/ThirdBtn"
 import ForthBtn from "..//Servicii/ForthBtn"
 
 function Servicii() {
-  
+
   return (
     <div>
       <Fade bottom cascade>
-          <div className="skillsContainer">
-            <Card.Title className="cardSkills">Servicii</Card.Title>
-            <Card className="card-final">
-            
+        <div className="skillsContainer">
+          <Card.Title className="cardSkills">Servicii</Card.Title>
+          <Card className="card-final">
 
-              <div className="Separator1">
+
+            <div className="Separator1">
               <Card className="carder_body">
                 <Card.Body>
                   <Card.Subtitle className="cardSubtitle">Terapie individuală</Card.Subtitle>
@@ -38,14 +38,14 @@ function Servicii() {
                   <Card.Text className="cardText">
                     Această formă de terapie are în prin plan reconcilierea cuplului, familiei și tot ce ține de problemele familiale întâlnite zi de zi...
                   </Card.Text>
-                  
+
                   <SecondBtn />
 
                 </Card.Body>
               </Card>
-              </div>
+            </div>
 
-              <div className="Separator2">
+            <div className="Separator2">
               <Card className="carder_body">
                 <Card.Body>
                   <Card.Subtitle className="cardSubtitle">Terapie de grup</Card.Subtitle>
@@ -64,18 +64,18 @@ function Servicii() {
                   <Card.Subtitle className="cardSubtitle">Terapie online</Card.Subtitle>
                   <div className="bottomLine"></div>
                   <Card.Text className="cardText">
-                   Pentru că suntem în era vitezei, ne-am automatizat suficient de mult astfel încât să folosim orice resură aflată la dispoziția noastră...
+                    Pentru că suntem în era vitezei, ne-am automatizat suficient de mult astfel încât să folosim orice resură aflată la dispoziția noastră...
                   </Card.Text>
 
                   <ForthBtn />
 
                 </Card.Body>
               </Card>
-              </div>
+            </div>
 
-            </Card> 
-          </div>
-        </Fade>
+          </Card>
+        </div>
+      </Fade>
     </div>
   )
 }

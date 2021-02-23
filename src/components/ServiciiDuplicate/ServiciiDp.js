@@ -8,16 +8,16 @@ import ThirdBtnDp from "../ServiciiDuplicate/ThirdBtnDp"
 import ForthBtnDp from "../ServiciiDuplicate/ForthBtnDp"
 
 function ServiciiDp() {
-  
+
   return (
     <div>
       <Fade bottom cascade>
-          <div className="skillsContainerDp">
-           
-            <Card className="card-finalDp">
-            
-              
-              <div className="Separator1">
+        <div className="skillsContainerDp">
+
+          <Card className="card-finalDp">
+
+
+            <div className="Separator1">
               <Card className="carder_bodyDp">
                 <Card.Body>
                   <Card.Subtitle className="cardSubtitleDp">Terapie individuală</Card.Subtitle>
@@ -38,15 +38,15 @@ function ServiciiDp() {
                   <Card.Text className="cardTextDp">
                     Această formă de terapie are în prin plan reconcilierea cuplului, familiei și tot ce ține de problemele familiale întâlnite zi de zi...
                   </Card.Text>
-                  
+
                   <SecondBtnDp />
 
                 </Card.Body>
               </Card>
-              </div>
+            </div>
 
 
-              <div className="Separator2">
+            <div className="Separator2">
               <Card className="carder_bodyDp">
                 <Card.Body>
                   <Card.Subtitle className="cardSubtitleDp">Terapie de grup</Card.Subtitle>
@@ -72,12 +72,12 @@ function ServiciiDp() {
 
                 </Card.Body>
               </Card>
-              </div>
-              
+            </div>
 
-            </Card> 
-          </div>
-        </Fade>
+
+          </Card>
+        </div>
+      </Fade>
     </div>
   )
 }

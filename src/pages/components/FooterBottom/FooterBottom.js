@@ -11,11 +11,11 @@ function Footer() {
         <p>Andreea Teleman - Psihoterapeut &copy;Iași România 2021</p>
       </ul>
 
-       <ul className="logoItemsDesktop">
+      <ul className="logoItemsDesktop">
         {/* <li><a href="https://www.linkedin.com/in/ionu%C5%A3-prilipceanu-20534ab0/" target="_blank" rel="noreferrer" className="logoLinkedin"> <FontAwesomeIcon icon={faLinkedin} /> </a></li>
         <li><a href="https://github.com/ionutprilipceanu" target="_blank" rel="noreferrer" className="logoGithub"> <FontAwesomeIcon icon={faGithub} /> </a></li> */}
         {/* <li><a href="https://www.facebook.com/Cabinet-Psihologic-Teleman-662227117527601" target="_blank" rel="noreferrer" className="logoFacebook"> <FontAwesomeIcon icon={faFacebook} /> </a></li> */}
-      </ul> 
+      </ul>
 
       <ul className="componentePhone">
         <p>Andreea Teleman - Psihoterapeut &copy;Iași România 2021</p>
@@ -25,7 +25,7 @@ function Footer() {
         {/* <li><a href="https://www.linkedin.com/in/ionu%C5%A3-prilipceanu-20534ab0/" target="_blank" rel="noreferrer" className="logoLinkedin"> <FontAwesomeIcon icon={faLinkedin} /> </a></li>
         <li><a href="https://github.com/ionutprilipceanu" target="_blank" rel="noreferrer" className="logoGithub"> <FontAwesomeIcon icon={faGithub} /> </a></li> */}
         {/* <li><a href="https://www.facebook.com/Cabinet-Psihologic-Teleman-662227117527601" target="_blank" rel="noreferrer" className="logoFacebook"> <FontAwesomeIcon icon={faFacebook} /> </a></li> */}
-      </ul> 
+      </ul>
     </div>
   )
 }

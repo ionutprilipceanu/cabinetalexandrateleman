@@ -12,8 +12,8 @@ import FooterBottom from "..//components/FooterBottom/FooterBottom"
 export default class index extends Component {
   render() {
     return (
-      <div> 
-        <SeoComponent/>
+      <div>
+        <SeoComponent />
         <NavBar />
         <Acasa />
         <Intro />
