@@ -11,6 +11,7 @@ import antidepresie from "..//..//..//static/images/articole/antidepresie.jpg"
 import psihologul from "..//..//..//static/images/articole/psihologul.jpg"
 import hipnoza from "..//..//..//static/images/articole/hipnoza.jpg"
 import mituri from "..//..//..//static/images/articole/mituri.jpg"
+import cazuistica from "..//..//..//static/images/articole/cazuistica.jpg"
 
 
 import Link from 'gatsby-link';
@@ -195,7 +196,20 @@ class ServiciiComponent extends Component {
               </Card.Body>
             </Card>
 
-
+            <Card className="card-Container" style={{ width: '20rem' }}>
+              <Card.Img variant="top" src={cazuistica} />
+              <Card.Body>
+                <Card.Title className="title-Card-title">Cazuistica personală</Card.Title>
+                <Card.Text>
+                  Cazuistica mea din ultimii doi ani o puteți vedea accesând butonul de mai jos...
+                  </Card.Text>
+                <Button variant="dark"><Link
+                  to="/articole/cauzistica/"
+                  className="link-articole"
+                >  Citește mai mult </Link>
+                </Button>
+              </Card.Body>
+            </Card>
 
           </div>
         </Fade>
