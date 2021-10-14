@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import './Acasa.css'
 import Fade from "react-reveal/Fade"
-// import favicon from '..//..//..//..//static/images/favicon.png'
 import favicon from '..//..//..//static/images/favicon.png'
 import homePrimar from "..//Acasa/images/primaPagina.jpg"
 import homeSecundar from "..//Acasa/images/primaSecundar.jpg"
@@ -58,6 +57,15 @@ class Acasa extends Component {
               className="btn-start"
               activeClassName="activeNav"
             > Programează ședința </Link>
+
+          </div>
+          <div className="btn-cazuistica">
+
+            <Link
+              to="/articole/cauzistica/"
+              className="btn-start-cazuistica"
+              activeClassName="activeNav"
+            > Cazuistica personală </Link>
 
           </div>
         </div>

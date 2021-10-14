@@ -42,6 +42,21 @@
   margin:-15px 0 0 0;
 }
 
+.btn-cazuistica {
+  margin: -27px 0 0 40%;
+}
+
+.btn-start-cazuistica {
+  padding: 10px;
+  background-color: #ffffff;
+  border-color: black !important;
+  border-radius: 5px;
+  cursor: pointer;
+  color: black !important;
+  font-size: smaller;
+  border: 2px solid white;
+}
+
 .btn-start {
   margin-right: 10px;
   padding: 10px;
@@ -58,7 +73,14 @@
   color: black;
 }
 
-.btn-start:hover{
+.btn-start:hover {
+  color: white;
+  text-decoration: none;
+  opacity: 0.85;
+  transition-duration: 0.8s;
+}
+
+.btn-start-cazuistica:hover {
   color: white;
   text-decoration: none;
   opacity: 0.85;
@@ -107,7 +129,10 @@
     width: 45%;
     height: 250px;
   }
-  
+
+  .btn-start-cazuistica{
+    margin-right: 20px;
+  }
   
 }
 
@@ -129,6 +154,10 @@
   .btn-all {
     margin:-10px 0 0 0;
   }
+
+  .btn-start-cazuistica{
+    margin-left: 13%;
+  }
   
 }
 
@@ -149,6 +178,11 @@
 
   .btn-all {
     margin:-5px 0 0 0;
+    font-size: small;
+  }
+
+  .btn-cazuistica {
+    margin-top: -19px;
     font-size: small;
   }
 
@@ -194,4 +228,15 @@
   }
 
 
+}
+@media screen and (max-width: 320px) {
+
+  .btn-start {
+    font-size: x-small;
+  }
+
+  .btn-start-cazuistica{
+    font-size: x-small;
+    margin-left: 13%;
+  }
 }
