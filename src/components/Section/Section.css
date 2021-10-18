@@ -27,15 +27,12 @@
 .card-Container {
   margin: 0 2.5%;
 }
-.borderFix {
-  border-top-left-radius: 0 !important;
-  border-bottom-left-radius: 0 !important;
-}
-.link-articole-section {
+
+.link-articole {
   color: white;
 }
 
-.link-articole-section:hover {
+.link-articole:hover {
   text-decoration: none !important;
   color: white;
   opacity: 0.85;

@@ -62,7 +62,7 @@ class Acasa extends Component {
           <div className="btn-cazuistica">
 
             <Link
-              to="/articole/cauzistica/"
+              to="/articole/cazuistica/"
               className="btn-start-cazuistica"
               activeClassName="activeNav"
             > Cazuistica personală </Link>

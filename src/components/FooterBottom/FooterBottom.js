@@ -55,7 +55,7 @@ function Footer() {
             </Form.Group>
           </Form.Row>
 
-          <Button variant="primary" type="submit" className="send_BtnAbn">
+          <Button variant="primary" type="submit" className="send_BtnAbn btn-primary">
             Trimite
             </Button>
         </Fade>

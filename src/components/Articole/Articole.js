@@ -31,6 +31,16 @@ class ServiciiComponent extends Component {
         </div>
 
         <Fade>
+          <Button 
+          variant="dark"
+          className="borderFix">
+            <Link
+              to="/section/"
+              className="link-articole-section"
+            > Voir la section française 
+            </Link>
+          </Button>
+
           <div className="cardStyle">
 
             <Card className="card-Container" style={{ width: '20rem' }}>
@@ -64,14 +74,14 @@ class ServiciiComponent extends Component {
             </Card>
 
             <Card className="card-Container" style={{ width: '20rem' }}>
-              <Card.Img variant="top" src={pierderi} />
+              <Card.Img variant="top" src={depresia} />
               <Card.Body>
-                <Card.Title className="title-Card-title">Durerea cauzată de pierderi</Card.Title>
+                <Card.Title className="title-Card-title">Ce este depresia?</Card.Title>
                 <Card.Text>
-                  Viața normală este o viață cu probleme".  Aceasta este fraza cu care mentorul meu obișnuia să înceapă un discurs...
+                  Depresia (depresia majoră) este una dintre cele mai comune tulburări care afectează felul în care te simți, felul în care gândești și felul în care...
                   </Card.Text>
                 <Button variant="dark"><Link
-                  to="/articole/pierderea/"
+                  to="/articole/depresia/"
                   className="link-articole"
                 >  Citește mai mult </Link>
                 </Button>
@@ -113,14 +123,14 @@ class ServiciiComponent extends Component {
             </Card>
 
             <Card className="card-Container" style={{ width: '20rem' }}>
-              <Card.Img variant="top" src={depresia} />
+              <Card.Img variant="top" src={pierderi} />
               <Card.Body>
-                <Card.Title className="title-Card-title">Ce este depresia?</Card.Title>
+                <Card.Title className="title-Card-title">Durerea cauzată de pierderi</Card.Title>
                 <Card.Text>
-                  Depresia (depresia majoră) este una dintre cele mai comune tulburări care afectează felul în care te simți, felul în care gândești și felul în care...
+                  Viața normală este o viață cu probleme".  Aceasta este fraza cu care mentorul meu obișnuia să înceapă un discurs...
                   </Card.Text>
                 <Button variant="dark"><Link
-                  to="/articole/depresia/"
+                  to="/articole/pierderea/"
                   className="link-articole"
                 >  Citește mai mult </Link>
                 </Button>
@@ -186,7 +196,7 @@ class ServiciiComponent extends Component {
               <Card.Body>
                 <Card.Title className="title-Card-title">2 Mituri ale Hipnozei</Card.Title>
                 <Card.Text>
-                  Le vom lua pe rând şi am să încep cu mitul conform căruia ,,În transă pierdem orice control asupra propriei minţi"...
+                  Le vom lua pe rând şi am să încep cu mitul conform căruia ,,În transă pierdem orice control...
                   </Card.Text>
                 <Button variant="dark"><Link
                   to="/articole/mituri/"
@@ -204,7 +214,7 @@ class ServiciiComponent extends Component {
                   Cazuistica mea din ultimii doi ani o puteți vedea accesând butonul de mai jos...
                   </Card.Text>
                 <Button variant="dark"><Link
-                  to="/articole/cauzistica/"
+                  to="/articole/cazuistica/"
                   className="link-articole"
                 >  Citește mai mult </Link>
                 </Button>

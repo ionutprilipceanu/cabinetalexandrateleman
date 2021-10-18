@@ -2,11 +2,11 @@ import React, { Component } from 'react'
 import NavBar from "../../components/NavBar/NavBar"
 import FooterBottom from "../../components/FooterBottom/FooterBottom"
 import "..//articole/style-edit.css"
-import cazuistica from "..//..//..//static/images/articole/cazuistica.jpg"
+import cazuistica from "..//..//..//static/images/articole/cazuisticaFR.jpg"
 import Fade from "react-reveal/Fade"
 import Helmet from 'react-helmet'
 import favicon from '..//..//..//static/images/favicon.png'
-import imagineArticol from "..//..//..//static/images/articole/stres.jpg"
+import imagineArticol from "..//..//..//static/images/articole/cazuisticaFR.jpg"
 
 class Stresul extends Component {
   render() {
@@ -50,21 +50,20 @@ class Stresul extends Component {
         <NavBar />
         <article>
           <div className="titluArticoleScrise">
-            <h1>Cazuistica personală</h1>
+            <h1>Mon experience profesionelle</h1>
             <div className="backgroundLineArticoleScrise"></div>
           </div>
 
           <div className="text-articole">
-
-          <ol>
-            <li>Probleme legate de stima de Sine</li>
-            <li>Atac de panică</li>
-            <li>Blocaje emoționale</li>
-            <li>Stres și anxietate</li>
-            <li>Doliu</li>
-            <li>Pierderea unei persoane prin separare sau divorț</li>
-            <li>Depresie și stres post-traumatic</li>
-            <li>Tulburare anxio-depresivă</li>
+          <p><i>Cabinet Individuel de Psychologie  Alexandra Teleman Iasi, rue Theodor Pallady nr 8 </i></p>
+          
+          <ul>
+            <li>Manque de confiance en Soi</li>
+            <li>Attaque de panique</li>
+            <li>Blocages emotionelles</li>
+            <li>Le stress et l anxiete </li>
+            <li>Trouble anxio-depressif</li>
+            <li>L anxiete généralisée </li>
 
             <Fade bottom cascade>
               <div className="neascultare">
@@ -73,29 +72,21 @@ class Stresul extends Component {
               </div>
             </Fade>
 
-            <li>Anxietate generalizată</li>
-              <dt>o	Fobii specifice :</dt>
-                <dd>- teama de a zbura cu avionul, a merge sau a conduce mașina etc</dd>
-                <dd>- claustrofobie</dd>
-                <dd>- fobie socială</dd>
-                <dd>- frica de examene</dd>
-                <dd>- frica de a vorbi în fața unui grup</dd>
-            <li>Probleme psihosomatice care declanșează:</li>
-                <dd>- Probleme digestive</dd>
-                <dd>- Dureri abdominale</dd>
-                <dd>- Dureri sau inposibilitatea de a urina</dd>
-                <dd>- Lipsa apetitului și frica de a mânca</dd>
-                <dd>- Tremur la nivelul mainilor sau diverse spasme ale corpului</dd>
-                <dd>- Frica de boală sau de virusul Covid19</dd>
-            <li>Burnout – sau epuizare profesională</li>
-            <li>Procrastinare și perfecționism mal-adaptativ</li>
-            <li>Probleme legate de instabilitatea emoțională și lipsa autocontrolului</li>
-            <li>Tulburări de personalitate borderline</li>
-            <li>Probleme de integrare și relaționare inter-individuală sau de grup</li>
-            <li>Probleme legate de cuplu</li>
-            <li>Metode și tehnici de comunicare la locul de muncă</li>
-            <li>Dezvoltare personală</li>
-          </ol>
+            <li>Les phobies specifique</li>
+                <dd>- Peur de voyage avec l avion ou avec un moyen de transport en commun </dd>
+                <dd>- Claustrophobie</dd>
+                <dd>- Phobie social</dd>
+            <li>Soucis psyhosomatiques qui declanchent: </li>
+                <dd>- Problemes digestifs</dd>
+                <dd>- Migraine</dd>
+                <dd>- Probleme d urine</dd>
+                <dd>- Manque  d’ appétit, le corp refuse la nuriture</dd>
+                <dd>- Peur de manger</dd>
+            <li>Perfectionisme maladaptative</li>
+            <li>Les troubles sur l instabilité emotionelle</li>
+            <li>Trouble de personnalité borderline        </li>
+            <li>Soucis dans le couple et les relations inter-individuell</li>
+          </ul>
           </div>
         </article>
         <FooterBottom />

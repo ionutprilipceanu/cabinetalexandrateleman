@@ -75,7 +75,7 @@
 }
 
 .send_BtnAbn {
-  color: black;
+  color: #000;
   background-color: rgb(166,220,232) !important;
   border-color: black !important;
   border: 2px solid black;
@@ -85,6 +85,10 @@
 .send_BtnAbn:hover {
   opacity: 0.85;
   transition-duration: 0.8s;
+}
+
+.btn-primary {
+  color: black;
 }
 
 @media screen and (max-width: 815px) {
