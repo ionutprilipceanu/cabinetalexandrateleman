@@ -65,7 +65,7 @@ class Acasa extends Component {
               to="/articole/cazuistica/"
               className="btn-start-cazuistica"
               activeClassName="activeNav"
-            > Cazuistica personală </Link>
+            > Cazuistica</Link>
 
           </div>
         </div>
