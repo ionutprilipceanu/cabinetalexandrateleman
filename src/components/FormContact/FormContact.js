@@ -2,10 +2,12 @@ import React, { Component } from 'react'
 import './FormContact.css'
 import { Form } from 'react-bootstrap'
 import { Col } from 'react-bootstrap'
-import { Button } from 'react-bootstrap'
 import Fade from "react-reveal/Fade"
+import {FormControl, FormGroup, ControlLabel, Button} from 'react-bootstrap';
 // import { Card } from 'react-bootstrap'
 // import favicon from '..//Form_contact/'
+
+// cabinetteleman@gmail.com
 
 class FormContact extends Component {
   constructor(props) {
@@ -41,8 +43,8 @@ class FormContact extends Component {
             name="person"
           // action="/thank-you" //mesaj de informare dupa submit
           >
-            <input type="hidden" name="bot-field" />
-            <input type="hidden" name="form-name" value="person" />
+            {/* <input type="hidden" name="bot-field" />
+            <input type="hidden" name="form-name" value="person" /> */}
             <Fade left cascade>
               <div className="titluFrm"><h3>Formular de contact</h3></div>
               <Form.Row>
@@ -95,16 +97,21 @@ class FormContact extends Component {
                 </Form.Group>
               </Form.Row>
 
-              <Form.Group>
+              <FormGroup>
                 <Form.Label>Scrie mesajul tău</Form.Label>
-                <Form.Control as="textarea" rows="5" columns="2"
+                <FormControl as="textarea" rows="5" columns="2"
                   id="text-area"
                   type="text"
                   name="comment"
                   required onChange={this.handInput}
                 />
+              </FormGroup>
 
-              </Form.Group>
+{/* <FormGroup controlId="formControlsTextarea">
+      <ControlLabel>Textarea</ControlLabel>
+      <Form.Label>Scrie mesajul tău</Form.Label>
+      <FormControl componentClass="textarea" placeholder="textarea" />
+    </FormGroup> */}
 
               <Button variant="primary" type="submit" className="send_BtnFrm">
                 Trimite
