@@ -88,24 +88,26 @@ class FormContact extends Component {
                 </Form.Group>
               </Form.Row> */}
 
-              {/* <Form.Group>
-                <Form.Label>Scrie mesajul tău</Form.Label>
-                <Form.Control
-                  as="textarea"
-                  rows={5}
-                  columns={2}
-                  id="text-area"
-                  type="text"
-                  name="comment"
-                  required
-                  onChange={this.handInput}
-                />
-              </Form.Group> */}
+              <Form.Group>
+                <Form.Label>
+                  Scrie mesajul tău <br />
+                  <Form.Control
+                    as="textarea"
+                    rows={5}
+                    columns={2}
+                    id="text-area"
+                    type="text"
+                    name="comment"
+                    required
+                    onChange={this.handInput}
+                  />
+                </Form.Label>
+              </Form.Group>
 
-              {/* <Button variant="primary" type="submit" className="send_BtnFrm">
+              <Button variant="primary" type="submit" className="send_BtnFrm">
                 Trimite
-              </Button> */}
-              <form
+              </Button>
+              {/* <form
                 name="Contact"
                 method="post"
                 data-netlify="true"
@@ -140,7 +142,7 @@ class FormContact extends Component {
                 <Button variant="primary" type="submit" className="send_BtnFrm">
                   Send
                 </Button>
-              </form>
+              </form> */}
             </Fade>
           </Form>
 
