@@ -2,7 +2,8 @@ import React, { Component } from "react"
 import "./FormContact.css"
 import { Col } from "react-bootstrap"
 import { Button } from "react-bootstrap"
-import { Form, FormGroup, FormControl, FormLabel } from "react-bootstrap"
+// import { Form } from "react-bootstrap/Form"
+import Form from "react-bootstrap/Form"
 import Fade from "react-reveal/Fade"
 // import { Card } from 'react-bootstrap'
 // import favicon from '..//Form_contact/'
@@ -41,8 +42,8 @@ class FormContact extends Component {
             name="person"
             // action="/thank-you" //mesaj de informare dupa submit
           >
-            <input type="hidden" name="bot-field" />
-            <input type="hidden" name="form-name" value="person" />
+            {/* <input type="hidden" name="bot-field" />
+            <input type="hidden" name="form-name" value="person" /> */}
             <Fade left cascade>
               <div className="titluFrm">
                 <h3>Formular de contact</h3>
@@ -88,9 +89,9 @@ class FormContact extends Component {
 
               <Form.Row>
                 <Form.Group as={Col}>
-                  <Form.Label htmlFor="number">Telefon</Form.Label>
+                  <Form.Label htmlFor="phone">Telefon</Form.Label>
                   <Form.Control
-                    // id="name-input"
+                    id="phone-input"
                     type="number"
                     name="phone"
                     placeholder=""
@@ -127,19 +128,13 @@ class FormContact extends Component {
                   onChange={this.handInput}
                 />
               </Form.Group> */}
-              <Form.Row>
-                <Form.Group as={Col}>
-                  <Form.Label htmlFor="name">Scrie mesajul tău</Form.Label>
-                  <Form.Control
-                    id="name-input"
-                    type="textarea"
-                    name="name"
-                    placeholder=""
-                    required
-                    onChange={this.handInput}
-                  />
-                </Form.Group>
-              </Form.Row>
+              <Form.Group
+                className="mb-3"
+                controlId="exampleForm.ControlTextarea1"
+              >
+                <Form.Label>Scrie mesajul tău</Form.Label>
+                <Form.Control as="textarea" rows={3} />
+              </Form.Group>
 
               <Button variant="primary" type="submit" className="send_BtnFrm">
                 Trimite
