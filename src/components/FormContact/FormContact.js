@@ -40,6 +40,7 @@ class FormContact extends Component {
             netlify-honeypot="bot-field"
             data-netlify="true"
             name="person"
+            onSubmit="submit"
             // action="/thank-you" //mesaj de informare dupa submit
           >
             <input type="hidden" name="bot-field" />
@@ -89,20 +90,6 @@ class FormContact extends Component {
 
               <Form.Row>
                 <Form.Group as={Col}>
-                  <Form.Label htmlFor="phone">Telefon</Form.Label>
-                  <Form.Control
-                    id="phone-input"
-                    type="number"
-                    name="phone"
-                    placeholder=""
-                    required
-                    onChange={this.handInput}
-                  />
-                </Form.Group>
-              </Form.Row>
-
-              <Form.Row>
-                <Form.Group as={Col}>
                   <Form.Label htmlFor="email">Email</Form.Label>
                   <Form.Control
                     id="address-input"
@@ -129,11 +116,11 @@ class FormContact extends Component {
                 />
               </Form.Group> */}
 
-              <Button variant="primary" type="submit" className="send_BtnFrm">
+              {/* <Button variant="primary" type="submit" className="send_BtnFrm">
                 Trimite
-              </Button>
+              </Button> */}
             </Fade>
-            <form
+            {/* <form
               name="Contact"
               method="post"
               data-netlify="true"
@@ -141,32 +128,34 @@ class FormContact extends Component {
             >
               <input type="hidden" name="form-name" value="Contact"></input>
               <div>
-                <label>
-                  <input type="text" name="first-name" />
-                </label>
+                <label htmlFor="name">Name</label>
+                <br />
+                <input id="name" type="name" name="name" />
               </div>
 
               <div>
-                <labe htmlFor="email">Email</labe>
+                <label htmlFor="email">Email</label>
                 <br />
                 <input id="email" type="email" name="email" />
-              </div>
+              </div> */}
 
-              <div>
-                <labe htmlFor="number">Phone</labe>
-                <br />
-                <input id="number" type="number" name="number" />
-              </div>
+            <div>
+              <labe htmlFor="number">Phone</labe>
+              <br />
+              <input id="number" type="number" name="number" />
+            </div>
 
-              <div>
-                <label>
-                  Scrie mesajul tău <br />
-                  <textarea name="comments"></textarea>
-                </label>
-              </div>
+            <div>
+              <label>
+                Scrie mesajul tău <br />
+                <textarea name="comments"></textarea>
+              </label>
+            </div>
 
-              <button type="submit">Send</button>
-            </form>
+            <Button variant="primary" type="submit" className="send_BtnFrm">
+              Send
+            </Button>
+            {/* </form> */}
           </Form>
 
           <div className="contactInfoFormFrm">
