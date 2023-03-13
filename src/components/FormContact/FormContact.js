@@ -46,68 +46,7 @@ class FormContact extends Component {
               <div className="titluFrm">
                 <h3>Formular de contact</h3>
               </div>
-              {/* <Form.Row>
-                <Form.Group as={Col}>
-                  <Form.Label htmlFor="name">Nume</Form.Label>
-                  <Form.Control
-                    id="name-input"
-                    type="text"
-                    name="name"
-                    placeholder=""
-                    required
-                    onChange={this.handInput}
-                  />
-                </Form.Group>
-              </Form.Row> */}
-
-              {/* <Form.Row>
-                <Form.Group as={Col}>
-                  <Form.Label htmlFor="phone">Telefon</Form.Label>
-                  <Form.Control
-                    placeholder=""
-                    // id="phone-input"
-                    type="text"
-                    // name="phone"
-                    required
-                    onChange={this.handInput}
-                  />
-                </Form.Group>
-              </Form.Row> */}
-
-              {/* <Form.Row>
-                <Form.Group as={Col}>
-                  <Form.Label htmlFor="email">Email</Form.Label>
-                  <Form.Control
-                    id="address-input"
-                    type="email"
-                    name="address"
-                    placeholder=""
-                    required
-                    onChange={this.handInput}
-                  />
-                </Form.Group>
-              </Form.Row> */}
-
-              <Form.Group>
-                <Form.Label>
-                  Scrie mesajul tău <br />
-                  <Form.Control
-                    as="textarea"
-                    rows={5}
-                    columns={2}
-                    id="text-area"
-                    type="text"
-                    name="comment"
-                    required
-                    onChange={this.handInput}
-                  />
-                </Form.Label>
-              </Form.Group>
-
-              <Button variant="primary" type="submit" className="send_BtnFrm">
-                Trimite
-              </Button>
-              {/* <form
+              <form
                 name="Contact"
                 method="post"
                 data-netlify="true"
@@ -117,32 +56,47 @@ class FormContact extends Component {
                 <Form.Group>
                   <Form.Label htmlFor="name">Nume</Form.Label>
                   <br />
-                  <input id="name" type="name" name="name" />
+                  <input
+                    id="name"
+                    type="name"
+                    name="name"
+                    className="inputField"
+                  />
                 </Form.Group>
 
                 <Form.Group>
                   <Form.Label htmlFor="email">Email</Form.Label>
                   <br />
-                  <input id="email" type="email" name="email" />
+                  <input
+                    id="email"
+                    type="email"
+                    name="email"
+                    className="inputField"
+                  />
                 </Form.Group>
 
                 <Form.Group>
                   <Form.Label htmlFor="number">Telefon</Form.Label>
                   <br />
-                  <input id="number" type="number" name="number" />
+                  <input
+                    id="number"
+                    type="number"
+                    name="number"
+                    className="inputField"
+                  />
                 </Form.Group>
 
                 <Form.Group>
                   <Form.Label>
                     Scrie mesajul tău <br />
-                    <textarea name="comments"></textarea>
+                    <textarea name="comments" className="inputField"></textarea>
                   </Form.Label>
                 </Form.Group>
 
                 <Button variant="primary" type="submit" className="send_BtnFrm">
                   Send
                 </Button>
-              </form> */}
+              </form>
             </Fade>
           </Form>
 
