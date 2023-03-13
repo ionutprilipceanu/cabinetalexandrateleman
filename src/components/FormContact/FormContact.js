@@ -1,12 +1,9 @@
 import React, { Component } from "react"
 import "./FormContact.css"
-import { Col } from "react-bootstrap"
+// import { Col } from "react-bootstrap"
 import { Button } from "react-bootstrap"
-// import { Form } from "react-bootstrap/Form"
 import Form from "react-bootstrap/Form"
 import Fade from "react-reveal/Fade"
-// import { Card } from 'react-bootstrap'
-// import favicon from '..//Form_contact/'
 
 // cabinetteleman@gmail.com
 
@@ -115,30 +112,30 @@ class FormContact extends Component {
                 onSubmit="submit"
               >
                 <input type="hidden" name="form-name" value="Contact"></input>
-                <div>
-                  <label htmlFor="name">Name</label>
+                <Form.Group>
+                  <Form.Label htmlFor="name">Nume</Form.Label>
                   <br />
                   <input id="name" type="name" name="name" />
-                </div>
+                </Form.Group>
 
-                <div>
-                  <label htmlFor="email">Email</label>
+                <Form.Group>
+                  <Form.Label htmlFor="email">Email</Form.Label>
                   <br />
                   <input id="email" type="email" name="email" />
-                </div>
+                </Form.Group>
 
-                <div>
-                  <labe htmlFor="number">Phone</labe>
+                <Form.Group>
+                  <Form.Label htmlFor="number">Telefon</Form.Label>
                   <br />
                   <input id="number" type="number" name="number" />
-                </div>
+                </Form.Group>
 
-                <div>
-                  <label>
+                <Form.Group>
+                  <Form.Label>
                     Scrie mesajul tău <br />
                     <textarea name="comments"></textarea>
-                  </label>
-                </div>
+                  </Form.Label>
+                </Form.Group>
 
                 <Button variant="primary" type="submit" className="send_BtnFrm">
                   Send
