@@ -5,8 +5,6 @@ import { Button } from "react-bootstrap"
 import Form from "react-bootstrap/Form"
 import Fade from "react-reveal/Fade"
 
-// cabinetteleman@gmail.com
-
 class FormContact extends Component {
   constructor(props) {
     super(props)
@@ -93,7 +91,7 @@ class FormContact extends Component {
                   </Form.Label>
                 </Form.Group>
 
-                <Button variant="primary" type="submit" className="send_BtnFrm">
+                <Button type="submit" className="send_BtnFrm">
                   Send
                 </Button>
               </form>
