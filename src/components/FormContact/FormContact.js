@@ -42,8 +42,8 @@ class FormContact extends Component {
             name="person"
             // action="/thank-you" //mesaj de informare dupa submit
           >
-            {/* <input type="hidden" name="bot-field" />
-            <input type="hidden" name="form-name" value="person" /> */}
+            <input type="hidden" name="bot-field" />
+            <input type="hidden" name="form-name" value="person" />
             <Fade left cascade>
               <div className="titluFrm">
                 <h3>Formular de contact</h3>
@@ -128,18 +128,45 @@ class FormContact extends Component {
                   onChange={this.handInput}
                 />
               </Form.Group> */}
-              <Form.Group
-                className="mb-3"
-                // controlId="exampleForm.ControlTextarea1"
-              >
-                <Form.Label>Scrie mesajul tău</Form.Label>
-                <Form.Control as="textarea" rows={3} />
-              </Form.Group>
 
               <Button variant="primary" type="submit" className="send_BtnFrm">
                 Trimite
               </Button>
             </Fade>
+            <form
+              name="Contact"
+              method="post"
+              data-netlify="true"
+              onSubmit="submit"
+            >
+              <input type="hidden" name="form-name" value="Contact"></input>
+              <div>
+                <label>
+                  <input type="text" name="first-name" />
+                </label>
+              </div>
+
+              <div>
+                <labe htmlFor="email">Email</labe>
+                <br />
+                <input id="email" type="email" name="email" />
+              </div>
+
+              <div>
+                <labe htmlFor="number">Phone</labe>
+                <br />
+                <input id="number" type="number" name="number" />
+              </div>
+
+              <div>
+                <label>
+                  Scrie mesajul tău <br />
+                  <textarea name="comments"></textarea>
+                </label>
+              </div>
+
+              <button type="submit">Send</button>
+            </form>
           </Form>
 
           <div className="contactInfoFormFrm">
