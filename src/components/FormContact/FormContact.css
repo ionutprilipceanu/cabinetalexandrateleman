@@ -40,7 +40,7 @@
   background-color: #282c34 !important;
   border-color: black !important;
   border: 2px solid black;
-  color: #fff;
+  color: #fff !important;
 }
 
 .send_BtnFrm:hover {
