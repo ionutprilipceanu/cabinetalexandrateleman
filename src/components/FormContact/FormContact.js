@@ -2,12 +2,7 @@ import React, { Component } from "react"
 import "./FormContact.css"
 import { Col } from "react-bootstrap"
 import { Button } from "react-bootstrap"
-import {
-  Form,
-  FormGroup,
-  // FormControl,
-  FormLabel,
-} from "react-bootstrap"
+import { Form, FormGroup, FormControl, FormLabel } from "react-bootstrap"
 import Fade from "react-reveal/Fade"
 // import { Card } from 'react-bootstrap'
 // import favicon from '..//Form_contact/'
@@ -119,13 +114,13 @@ class FormContact extends Component {
                 />
               </Form.Group> */}
 
-              <Form.Group
+              <FormGroup
                 className="mb-3"
                 controlId="exampleForm.ControlTextarea1"
               >
-                <Form.Label>Scrie mesajul tău</Form.Label>
-                <Form.Control as="textarea" rows={3} />
-              </Form.Group>
+                <FormLabel>Scrie mesajul tău</FormLabel>
+                <FormControl as="textarea" rows={3} />
+              </FormGroup>
 
               <Button variant="primary" type="submit" className="send_BtnFrm">
                 Trimite

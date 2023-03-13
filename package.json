@@ -19,6 +19,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
     "@fortawesome/react-fontawesome": "^0.1.12",
     "bootstrap": "^4.5.3",
+    "caniuse-lite": "^1.0.30001464",
     "gatsby": "^2.26.1",
     "gatsby-plugin-emotion": "^4.5.0",
     "gatsby-plugin-react-helmet": "^3.5.0",
