@@ -72,7 +72,7 @@ class FormContact extends Component {
           </Form.Group>  */}
               </Form.Row>
 
-              <Form.Row>
+              {/* <Form.Row>
                 <Form.Group as={Col}>
                   <Form.Label htmlFor="phone">Telefon</Form.Label>
                   <Form.Control
@@ -80,6 +80,20 @@ class FormContact extends Component {
                     // id="phone-input"
                     type="text"
                     // name="phone"
+                    required
+                    onChange={this.handInput}
+                  />
+                </Form.Group>
+              </Form.Row> */}
+
+              <Form.Row>
+                <Form.Group as={Col}>
+                  <Form.Label htmlFor="number">Telefon</Form.Label>
+                  <Form.Control
+                    // id="name-input"
+                    type="number"
+                    name="phone"
+                    placeholder=""
                     required
                     onChange={this.handInput}
                   />
@@ -113,14 +127,19 @@ class FormContact extends Component {
                   onChange={this.handInput}
                 />
               </Form.Group> */}
-
-              <FormGroup
-                className="mb-3"
-                controlId="exampleForm.ControlTextarea1"
-              >
-                <FormLabel>Scrie mesajul tău</FormLabel>
-                <FormControl as="textarea" rows={3} />
-              </FormGroup>
+              <Form.Row>
+                <Form.Group as={Col}>
+                  <Form.Label htmlFor="name">Scrie mesajul tău</Form.Label>
+                  <Form.Control
+                    id="name-input"
+                    type="textarea"
+                    name="name"
+                    placeholder=""
+                    required
+                    onChange={this.handInput}
+                  />
+                </Form.Group>
+              </Form.Row>
 
               <Button variant="primary" type="submit" className="send_BtnFrm">
                 Trimite
