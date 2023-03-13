@@ -130,7 +130,7 @@ class FormContact extends Component {
               </Form.Group> */}
               <Form.Group
                 className="mb-3"
-                controlId="exampleForm.ControlTextarea1"
+                // controlId="exampleForm.ControlTextarea1"
               >
                 <Form.Label>Scrie mesajul tău</Form.Label>
                 <Form.Control as="textarea" rows={3} />
