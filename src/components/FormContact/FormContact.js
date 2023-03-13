@@ -49,7 +49,7 @@ class FormContact extends Component {
               <div className="titluFrm">
                 <h3>Formular de contact</h3>
               </div>
-              <Form.Row>
+              {/* <Form.Row>
                 <Form.Group as={Col}>
                   <Form.Label htmlFor="name">Nume</Form.Label>
                   <Form.Control
@@ -61,18 +61,7 @@ class FormContact extends Component {
                     onChange={this.handInput}
                   />
                 </Form.Group>
-
-                {/* <Form.Group as={Col} >
-            <Form.Label htmlFor="lastname" >Last Name</Form.Label>
-            <Form.Control 
-            id="lastname-input" 
-            type="text" 
-            name="name" 
-            placeholder="" 
-            required onChange={this.handInput}
-            />
-          </Form.Group>  */}
-              </Form.Row>
+              </Form.Row> */}
 
               {/* <Form.Row>
                 <Form.Group as={Col}>
@@ -88,7 +77,7 @@ class FormContact extends Component {
                 </Form.Group>
               </Form.Row> */}
 
-              <Form.Row>
+              {/* <Form.Row>
                 <Form.Group as={Col}>
                   <Form.Label htmlFor="email">Email</Form.Label>
                   <Form.Control
@@ -100,7 +89,7 @@ class FormContact extends Component {
                     onChange={this.handInput}
                   />
                 </Form.Group>
-              </Form.Row>
+              </Form.Row> */}
 
               {/* <Form.Group>
                 <Form.Label>Scrie mesajul tău</Form.Label>
@@ -119,43 +108,43 @@ class FormContact extends Component {
               {/* <Button variant="primary" type="submit" className="send_BtnFrm">
                 Trimite
               </Button> */}
+              <form
+                name="Contact"
+                method="post"
+                data-netlify="true"
+                onSubmit="submit"
+              >
+                <input type="hidden" name="form-name" value="Contact"></input>
+                <div>
+                  <label htmlFor="name">Name</label>
+                  <br />
+                  <input id="name" type="name" name="name" />
+                </div>
+
+                <div>
+                  <label htmlFor="email">Email</label>
+                  <br />
+                  <input id="email" type="email" name="email" />
+                </div>
+
+                <div>
+                  <labe htmlFor="number">Phone</labe>
+                  <br />
+                  <input id="number" type="number" name="number" />
+                </div>
+
+                <div>
+                  <label>
+                    Scrie mesajul tău <br />
+                    <textarea name="comments"></textarea>
+                  </label>
+                </div>
+
+                <Button variant="primary" type="submit" className="send_BtnFrm">
+                  Send
+                </Button>
+              </form>
             </Fade>
-            {/* <form
-              name="Contact"
-              method="post"
-              data-netlify="true"
-              onSubmit="submit"
-            >
-              <input type="hidden" name="form-name" value="Contact"></input>
-              <div>
-                <label htmlFor="name">Name</label>
-                <br />
-                <input id="name" type="name" name="name" />
-              </div>
-
-              <div>
-                <label htmlFor="email">Email</label>
-                <br />
-                <input id="email" type="email" name="email" />
-              </div> */}
-
-            <div>
-              <labe htmlFor="number">Phone</labe>
-              <br />
-              <input id="number" type="number" name="number" />
-            </div>
-
-            <div>
-              <label>
-                Scrie mesajul tău <br />
-                <textarea name="comments"></textarea>
-              </label>
-            </div>
-
-            <Button variant="primary" type="submit" className="send_BtnFrm">
-              Send
-            </Button>
-            {/* </form> */}
           </Form>
 
           <div className="contactInfoFormFrm">
