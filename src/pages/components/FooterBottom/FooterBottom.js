@@ -1,5 +1,5 @@
-import React from 'react'
-import './FooterBottom.css'
+import React from "react"
+import "./FooterBottom.css"
 // import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 // import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 // import Link from 'gatsby-link';
@@ -8,7 +8,7 @@ function Footer() {
   return (
     <div className="footer">
       <ul className="componenteDesktop">
-        <p>Andreea Teleman - Psihoterapeut &copy;Iași România 2021</p>
+        <p>Alexandra Teleman - Psihoterapeut &copy;Iași România 2021</p>
       </ul>
 
       <ul className="logoItemsDesktop">
@@ -18,7 +18,7 @@ function Footer() {
       </ul>
 
       <ul className="componentePhone">
-        <p>Andreea Teleman - Psihoterapeut &copy;Iași România 2021</p>
+        <p>Alexandra Teleman - Psihoterapeut &copy;Iași România 2021</p>
       </ul>
 
       <ul className="logoItemsPhone">
