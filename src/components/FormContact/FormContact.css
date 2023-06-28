@@ -30,7 +30,6 @@
   margin: 0 0 3% 0;
 }
 
-
 .titluShowFrm {
   margin: 0 0 3% 0;
   display: flex;
@@ -38,9 +37,10 @@
 }
 
 .send_BtnFrm {
-  background-color: #282C34 !important;
+  background-color: #282c34 !important;
   border-color: black !important;
   border: 2px solid black;
+  color: #fff !important;
 }
 
 .send_BtnFrm:hover {
@@ -65,16 +65,33 @@
   text-align: center;
 }
 
-.backgroundLineServiciiContact{
+.backgroundLineServiciiContact {
   margin: 0 50% !important;
   margin-bottom: 2.5% !important;
   width: 100px;
   height: 5px;
-  background-color: rgb(199,233,255);
+  background-color: rgb(199, 233, 255);
+}
+
+.form-label {
+  width: 100%;
+}
+
+.inputField {
+  width: 100%;
+  height: 40px;
+  font-size: 16px;
+  transition: 0.6s;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background-color: transparent;
+}
+:focus {
+  outline: none;
+  border-bottom: 1px solid #c7e9ff;
 }
 
 @media screen and (max-width: 950px) {
-
   .formBodyFrm {
     margin: 10% 5% 5% 5%;
     padding: 2% 5% 5% 5%;
@@ -84,7 +101,6 @@
   .continutFormFrm {
     display: flex;
     flex-direction: column;
-    
   }
 
   .contactInfoFormFrm {
@@ -95,22 +111,18 @@
   .titluServiciiContact {
     margin-top: 20% !important;
   }
-
 }
 
 @media screen and (max-width: 550px) {
-
   .formBodyFrm {
     margin: 10% 5% 5% 5%;
     padding: 2% 5% 5% 5%;
     width: 90% !important;
-
   }
 
   .continutFormFrm {
     display: flex;
     flex-direction: column;
-    
   }
 
   .contactInfoFormFrm {
@@ -121,6 +133,4 @@
     margin-top: 30% !important;
     text-align: center;
   }
- 
-
 }

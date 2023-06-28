@@ -1,11 +1,18 @@
 import React, { Component } from "react"
 import "./FormContact.css"
+<<<<<<< HEAD
 import { Form } from "react-bootstrap"
 import { Col } from "react-bootstrap"
 import Fade from "react-reveal/Fade"
 import { FormControl, FormGroup, Button } from "react-bootstrap"
 // import { Card } from 'react-bootstrap'
 // import favicon from '..//Form_contact/'
+=======
+// import { Col } from "react-bootstrap"
+import { Button } from "react-bootstrap"
+import Form from "react-bootstrap/Form"
+import Fade from "react-reveal/Fade"
+>>>>>>> f4149e99f0cf0b757edffcc0b3b83ea6d2262f87
 
 // cabinetteleman@gmail.com
 
@@ -39,6 +46,10 @@ class FormContact extends Component {
             netlify-honeypot="bot-field"
             data-netlify="true"
             name="person"
+<<<<<<< HEAD
+=======
+            onSubmit="submit"
+>>>>>>> f4149e99f0cf0b757edffcc0b3b83ea6d2262f87
             // action="/thank-you" //mesaj de informare dupa submit
           >
             {/* <input type="hidden" name="bot-field" />
@@ -47,6 +58,7 @@ class FormContact extends Component {
               <div className="titluFrm">
                 <h3>Formular de contact</h3>
               </div>
+<<<<<<< HEAD
               <Form.Row>
                 <Form.Group as={Col}>
                   <Form.Label htmlFor="name">Nume</Form.Label>
@@ -82,10 +94,38 @@ class FormContact extends Component {
                     name="phone"
                     required
                     onChange={this.handInput}
+=======
+              <form
+                name="Contact"
+                method="post"
+                data-netlify="true"
+                onSubmit="submit"
+              >
+                <input type="hidden" name="form-name" value="Contact"></input>
+                <Form.Group>
+                  <Form.Label htmlFor="name">Nume</Form.Label>
+                  <br />
+                  <input
+                    id="name"
+                    type="name"
+                    name="name"
+                    className="inputField"
                   />
                 </Form.Group>
-              </Form.Row>
 
+                <Form.Group>
+                  <Form.Label htmlFor="email">Email</Form.Label>
+                  <br />
+                  <input
+                    id="email"
+                    type="email"
+                    name="email"
+                    className="inputField"
+>>>>>>> f4149e99f0cf0b757edffcc0b3b83ea6d2262f87
+                  />
+                </Form.Group>
+
+<<<<<<< HEAD
               <Form.Row>
                 <Form.Group as={Col}>
                   <Form.Label htmlFor="email">Email</Form.Label>
@@ -123,6 +163,30 @@ class FormContact extends Component {
               <Button variant="primary" type="submit" className="send_BtnFrm">
                 Trimite
               </Button>
+=======
+                <Form.Group>
+                  <Form.Label htmlFor="number">Telefon</Form.Label>
+                  <br />
+                  <input
+                    id="number"
+                    type="number"
+                    name="number"
+                    className="inputField"
+                  />
+                </Form.Group>
+
+                <Form.Group>
+                  <Form.Label>
+                    Scrie mesajul tău <br />
+                    <textarea name="comments" className="inputField"></textarea>
+                  </Form.Label>
+                </Form.Group>
+
+                <Button type="submit" className="send_BtnFrm">
+                  Send
+                </Button>
+              </form>
+>>>>>>> f4149e99f0cf0b757edffcc0b3b83ea6d2262f87
             </Fade>
           </Form>
 

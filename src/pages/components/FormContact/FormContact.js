@@ -136,7 +136,11 @@ class FormContact extends Component {
 
                   <div className="contactNameFrm">
                     <p>
+<<<<<<< HEAD
                       Nume: Alexandra Teleman <br />
+=======
+                      Nume: Andreea Teleman <br />
+>>>>>>> f4149e99f0cf0b757edffcc0b3b83ea6d2262f87
                       Număr telefon: (+40) 756 660 085 <br />
                       E-mail: cabinetteleman@gmail.com <br />
                       Adresa: str. Theodor Pallady nr. 8 Iași
