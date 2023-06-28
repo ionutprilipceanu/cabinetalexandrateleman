@@ -1,36 +1,36 @@
 // import React from 'react'
-import React, { useState } from 'react'
+import React, { useState } from "react"
 import data from "../../dataReview"
-import { FaChevronLeft, FaChevronRight, FaStar } from 'react-icons/fa'
+import { FaChevronLeft, FaChevronRight, FaStar } from "react-icons/fa"
 import "./FunctionReview.css"
 
 function FunctionReview() {
-  const [index, setIndex] = useState(0);
+  const [index, setIndex] = useState(0)
 
   const name = data.people[index].name
   const feedBack = data.people[index].feedBack
 
-  const checkNumber = (number) => {
+  const checkNumber = number => {
     if (number > data.people.length - 1) {
       return 0
     }
     if (number < 0) {
       return data.people.length - 1
     }
-    return number;
+    return number
   }
 
   const nextPerson = () => {
-    setIndex((index) => {
-      let newIndex = index + 1;
-      return checkNumber(newIndex);
+    setIndex(index => {
+      let newIndex = index + 1
+      return checkNumber(newIndex)
     })
   }
 
   const prevPerson = () => {
-    setIndex((index) => {
-      let newIndex = index - 1;
-      return checkNumber(newIndex);
+    setIndex(index => {
+      let newIndex = index - 1
+      return checkNumber(newIndex)
     })
   }
 
@@ -50,20 +50,22 @@ function FunctionReview() {
       </div>
 
       <div className="button-container">
-
-        <button className="prev-btn" onClick={prevPerson}>
+        <button
+          className="prev-btn"
+          onClick={prevPerson}
+          aria-label="prevPerson"
+        >
           <FaChevronLeft />
         </button>
 
-
-
-        <button className="next-btn" onClick={nextPerson}>
+        <button
+          className="next-btn"
+          onClick={nextPerson}
+          aria-label="nextPerson"
+        >
           <FaChevronRight />
         </button>
-
       </div>
-
-
     </article>
   )
 }
