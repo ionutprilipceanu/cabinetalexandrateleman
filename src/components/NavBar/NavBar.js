@@ -2,7 +2,7 @@ import React, { Component } from "react"
 import "./NavBar.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faFacebook } from "@fortawesome/free-brands-svg-icons"
-import Link from "gatsby-link"
+import { Link } from "gatsby"
 import logo from "./images/logo.png"
 
 class Nav_bar extends Component {

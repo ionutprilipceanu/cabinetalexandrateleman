@@ -2,9 +2,9 @@ import React, { Component } from "react"
 import "bootstrap/dist/css/bootstrap.min.css"
 import { Card } from "react-bootstrap"
 import "./Intro.css"
-import Fade from "react-reveal/Fade"
+import Reveal from "..//Reveal"
 import profilePhoto from "./images/profilePhoto.jpg"
-import Link from "gatsby-link"
+import { Link } from "gatsby"
 
 export class Intro extends Component {
   constructor(props) {
@@ -19,7 +19,7 @@ export class Intro extends Component {
   render() {
     return (
       <div className="containerBodyCarder" id="about">
-        <Fade left cascade>
+        <Reveal>
           <Card className="about_body">
             <Card.Body>
               <Card.Title className="abouttitle">
@@ -63,9 +63,9 @@ export class Intro extends Component {
               </div>
             </Card.Body>
           </Card>
-        </Fade>
+        </Reveal>
 
-        <Fade left cascade>
+        <Reveal>
           <div className="experience">
             <h3>Primul pas</h3>
             <p>
@@ -88,7 +88,7 @@ export class Intro extends Component {
               </Link>
             </div>
           </div>
-        </Fade>
+        </Reveal>
       </div>
     )
   }

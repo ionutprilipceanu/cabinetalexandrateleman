@@ -1,14 +1,11 @@
-import React from 'react'
-import './FooterBottom.css'
-import { Form } from 'react-bootstrap'
-import Fade from "react-reveal/Fade"
-import { Col } from 'react-bootstrap'
-import { Button } from 'react-bootstrap'
-// import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-// import { faFacebook } from '@fortawesome/free-brands-svg-icons';
-// import Link from 'gatsby-link';
+import React from "react"
+import "./FooterBottom.css"
+import { Form } from "react-bootstrap"
+import Reveal from "..//Reveal"
+import { Col } from "react-bootstrap"
+import { Button } from "react-bootstrap"
 
-function Footer() {
+const Footer = () => {
   return (
     <div className="footer">
       <ul className="componenteDesktop">
@@ -22,49 +19,52 @@ function Footer() {
         netlify-honeypot="bot-field"
         data-netlify="true"
         name="person"
-      // action="/thank-you" //mesaj de informare dupa submit
       >
         <input type="hidden" name="bot-field" />
         <input type="hidden" name="form-name" value="person" />
 
-        <Fade left cascade>
-          <div className="titluAbonare"><h3>Abonează-te!</h3></div>
-          <Form.Row>
-            <Form.Group as={Col} >
-              <Form.Label htmlFor="name" style={{ color: "white" }}>Nume</Form.Label>
-              <Form.Control
-                id="name-input"
-                type="text"
-                name="name"
-                placeholder=""
-              // required onChange={this.handInput}
-              />
-            </Form.Group>
-          </Form.Row>
+        <Reveal>
+          <div className="titluAbonare">
+            <h3>Abonează-te!</h3>
+          </div>
 
-          <Form.Row>
-            <Form.Group as={Col}>
-              <Form.Label htmlFor="email" style={{ color: "white" }} >Email</Form.Label>
-              <Form.Control
-                id="address-input"
-                type="email"
-                name="address"
-                placeholder=""
-              // required onChange={this.handInput}
-              />
-            </Form.Group>
-          </Form.Row>
+          <Form.Group as={Col}>
+            <Form.Label htmlFor="name" style={{ color: "white" }}>
+              Nume
+            </Form.Label>
+            <Form.Control
+              id="name-input"
+              type="text"
+              name="name"
+              placeholder=""
+            />
+          </Form.Group>
 
-          <Button variant="primary" type="submit" className="send_BtnAbn btn-primary">
+          <Form.Group as={Col}>
+            <Form.Label htmlFor="email" style={{ color: "white" }}>
+              Email
+            </Form.Label>
+            <Form.Control
+              id="address-input"
+              type="email"
+              name="address"
+              placeholder=""
+            />
+          </Form.Group>
+
+          <Button
+            variant="primary"
+            type="submit"
+            className="send_BtnAbn btn-primary"
+          >
             Trimite
-            </Button>
-        </Fade>
+          </Button>
+        </Reveal>
       </Form>
 
       <ul className="componentePhone">
         <p>Alexandra Teleman - Psihoterapeut &copy;Iași România 2021</p>
       </ul>
-
     </div>
   )
 }

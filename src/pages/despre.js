@@ -1,9 +1,8 @@
-import React, { Component } from 'react'
+import React, { Component } from "react"
 import SeoComponent from "../components/SeoComponent/SeoComponent"
 import NavBar from "../components/NavBar/NavBar"
 import FooterBottom from "..//components/FooterBottom/FooterBottom"
-import InfoComponent from '../components/InfoComponent/InfoComponent'
-
+import InfoComponent from "../components/InfoComponent/InfoComponent"
 
 export default class index extends Component {
   render() {
@@ -17,4 +16,3 @@ export default class index extends Component {
     )
   }
 }
-

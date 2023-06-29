@@ -1,10 +1,10 @@
 import React, { Component } from "react"
 import "./Acasa.css"
-import Fade from "react-reveal/Fade"
+import Reveal from "..//Reveal"
 import favicon from "..//..//..//static/images/favicon.png"
 import homePrimar from "..//Acasa/images/primaPagina.jpg"
 import homeSecundar from "..//Acasa/images/primaSecundar.jpg"
-import Link from "gatsby-link"
+import { Link } from "gatsby"
 
 class Acasa extends Component {
   constructor(props) {
@@ -35,9 +35,8 @@ class Acasa extends Component {
         <div className="background-Secundar">
           <img src={homeSecundar} alt="background_logo" />
         </div>
-        {/* <Fade left cascade> */}
         <div className="contactInfoHome">
-          <Fade bottom cascade>
+          <Reveal>
             <div className="titluShow">
               <h1>Investește-n tine</h1>
 
@@ -50,14 +49,13 @@ class Acasa extends Component {
                 </p>
               </div>
             </div>
-          </Fade>
+          </Reveal>
           <div className="btn-all">
             <Link
               to="/contact/"
               className="btn-start"
               activeClassName="activeNav"
             >
-              {" "}
               Programează ședința{" "}
             </Link>
           </div>
@@ -67,12 +65,10 @@ class Acasa extends Component {
               className="btn-start-cazuistica"
               activeClassName="activeNav"
             >
-              {" "}
               Cazuistica
             </Link>
           </div>
         </div>
-        {/* </Fade> */}
       </div>
     )
   }
