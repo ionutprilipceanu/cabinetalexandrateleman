@@ -1,14 +1,18 @@
 @keyframes myanimation {
-  0% {top: 20px;}
-  100% {top: -20px;}
+  0% {
+    top: 20px;
+  }
+  100% {
+    top: -20px;
+  }
 }
 
-.abouttitle{
+.abouttitle {
   margin-left: 5%;
   font-size: 35px;
 }
 
-.border-bottom{
+.border-bottom {
   border-bottom: 2px solid #88cfde !important;
   width: 5px;
   height: 2px;
@@ -16,21 +20,21 @@
 
 .cardSubtitleSection {
   font-size: 20px;
-  margin: 2% 0 0 0 ;
+  margin: 2% 0 0 0;
 }
 
-.aboutContent{
+.aboutContent {
   display: flex;
   flex-direction: row;
 }
 
-.aboutSection{
+.aboutSection {
   width: 750px;
   text-align: justify;
   margin: auto 5%;
 }
 
-.profilePhoto img{
+.profilePhoto img {
   width: 500px;
   margin: 5%;
   border-radius: 10px;
@@ -48,23 +52,24 @@
 }
 
 .btn-alls {
-  margin:-15px 0 0 0;
+  margin: -15px 0 0 0;
   margin-top: 30px !important;
 }
 
 .btn-go {
   margin-right: 10px;
   padding: 10px;
-  background-color: #282C34;
+  background-color: #282c34;
   border-color: black !important;
   border-radius: 5px;
   cursor: pointer;
   color: white;
   font-size: smaller;
   border: 2px solid black;
+  text-decoration: none;
 }
 
-.btn-go:hover{
+.btn-go:hover {
   color: white;
   text-decoration: none;
   opacity: 0.85;
@@ -72,20 +77,19 @@
 }
 
 @media screen and (max-width: 900px) {
-  .aboutContent{
+  .aboutContent {
     width: 100%;
     display: flex;
-
   }
 
-  .aboutSection{
+  .aboutSection {
     width: 95%;
     display: flex;
     text-align: justify;
     flex-wrap: wrap;
     margin: 0 5%;
   }
-  
+
   .profilePhoto {
     width: auto;
     border-radius: 50%;
@@ -93,26 +97,25 @@
   }
 
   .card {
-    margin:2% !important;
+    margin: 2% !important;
     width: 96% !important;
   }
 }
 
 @media screen and (max-width: 650px) {
-
-  .aboutContent{
+  .aboutContent {
     width: 96%;
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
   }
 
-  .aboutSection{
+  .aboutSection {
     width: 95%;
     text-align: justify;
     margin: 2% auto;
   }
-  
+
   .profilePhoto img {
     margin: 0 auto;
   }
@@ -120,5 +123,4 @@
   .experience {
     padding: 5% 10% !important;
   }
-
 }

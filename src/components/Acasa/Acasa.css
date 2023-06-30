@@ -9,10 +9,9 @@
   display: none;
 }
 
-.background-Primar{
+.background-Primar {
   margin: 5% 0 0 0;
 }
-
 
 .contactInfoHome {
   position: absolute;
@@ -23,7 +22,7 @@
   border-radius: 4px;
   padding: 2% 4% 3% 4%;
   width: 600px;
-  background-color: rgba(217, 241, 250, 1); 
+  background-color: rgba(217, 241, 250, 1);
   box-shadow: 8px 8px 16px rgba(30, 30, 30, 0.3);
   height: 270px;
 }
@@ -39,7 +38,7 @@
 }
 
 .btn-all {
-  margin:-15px 0 0 0;
+  margin: -15px 0 0 0;
 }
 
 .btn-cazuistica {
@@ -55,18 +54,20 @@
   color: black !important;
   font-size: smaller;
   border: 2px solid white;
+  text-decoration: none;
 }
 
 .btn-start {
   margin-right: 10px;
   padding: 10px;
-  background-color: #282C34;
+  background-color: #282c34;
   border-color: black !important;
   border-radius: 5px;
   cursor: pointer;
   color: white !important;
   font-size: smaller;
   border: 2px solid black;
+  text-decoration: none;
 }
 
 .activeNavHomeBtn {
@@ -100,10 +101,10 @@
 
 .btn-resume {
   text-decoration: none;
-  color: #282C34;
+  color: #282c34;
 }
 
-.btn-resume:hover{
+.btn-resume:hover {
   background-color: #282c34;
   color: white;
   text-decoration: none;
@@ -124,20 +125,17 @@
 }
 
 @media screen and (max-width: 1200px) {
-
   .contactInfoHome {
     width: 45%;
     height: 250px;
   }
 
-  .btn-start-cazuistica{
+  .btn-start-cazuistica {
     margin-right: 20px;
   }
-  
 }
 
 @media screen and (max-width: 1085px) {
-
   .contactInfoHome {
     width: 45%;
     height: 250px;
@@ -148,21 +146,19 @@
   }
 
   .contactInfoHome p {
-    font-size: .8em;
+    font-size: 0.8em;
   }
 
   .btn-all {
-    margin:-10px 0 0 0;
+    margin: -10px 0 0 0;
   }
 
-  .btn-start-cazuistica{
+  .btn-start-cazuistica {
     margin-left: 13%;
   }
-  
 }
 
 @media screen and (max-width: 950px) {
-
   .contactInfoHome {
     width: 50%;
     height: 230px;
@@ -173,11 +169,11 @@
   }
 
   .contactInfoHome p {
-    font-size: .8em;
+    font-size: 0.8em;
   }
 
   .btn-all {
-    margin:-5px 0 0 0;
+    margin: -5px 0 0 0;
     font-size: small;
   }
 
@@ -185,11 +181,9 @@
     margin-top: -19px;
     font-size: small;
   }
-
 }
 
 @media screen and (max-width: 650px) {
-
   .Intro {
     margin: 20% 0% 5% 0%;
     padding: 2% 5% 5% 5%;
@@ -202,7 +196,6 @@
   .continutForm {
     display: flex;
     flex-direction: column;
-    
   }
 
   .contactInfoHome {
@@ -210,7 +203,7 @@
     margin: -9% -5.6% 5% -6%;
     position: relative;
     border-radius: 0;
-    background-color: rgb(255, 255, 255); 
+    background-color: rgb(255, 255, 255);
     height: 210px;
   }
 
@@ -220,22 +213,19 @@
   }
 
   .background-Secundar img {
-    border: solid 1px rgb(167,219,232);
+    border: solid 1px rgb(167, 219, 232);
   }
 
   .background-Primar {
     display: none;
   }
-
-
 }
 @media screen and (max-width: 320px) {
-
   .btn-start {
     font-size: x-small;
   }
 
-  .btn-start-cazuistica{
+  .btn-start-cazuistica {
     font-size: x-small;
     margin-left: 13%;
   }
