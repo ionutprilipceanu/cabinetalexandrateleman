@@ -29,7 +29,7 @@ class FormContact extends Component {
           <div className="backgroundLineServiciiContact"></div>
         </div>
 
-        {/* <div className="continutFormFrm">
+        <div className="continutFormFrm">
           <Form
             className="formBodyFrm"
             method="post"
@@ -100,16 +100,13 @@ class FormContact extends Component {
 
           <div className="contactInfoFormFrm">
             {this.state.showText ? (
-              <Reveal>
-                <div className="titluFrm">
-                  <h3>Informații de contact</h3>
-                </div>
-              </Reveal>
+              <div className="titluFrm">
+                <h3>Informații de contact</h3>
+              </div>
             ) : (
-              <Reveal>
-                <div className="titluShowFrm">
-                  <h3>Informații de contact</h3>
-
+              <div className="titluShowFrm">
+                <h3>Informații de contact</h3>
+                <Reveal>
                   <div className="contactNameFrm">
                     <p>
                       Nume: Alexandra Teleman <br />
@@ -118,8 +115,8 @@ class FormContact extends Component {
                       Adresa: str. Theodor Pallady nr. 8 Iași
                     </p>
                   </div>
-                </div>
-              </Reveal>
+                </Reveal>
+              </div>
             )}
 
             <Button
@@ -131,13 +128,14 @@ class FormContact extends Component {
               {this.state.showText ? "Arată" : "Ascunde"}
             </Button>
           </div>
-        </div> */}
-        <div>
+        </div>
+        {/* <div>
           <form
             name="Contact Form"
             method="POST"
             data-netlify="true"
             action="#"
+            className="formBodyFrm"
           >
             <input type="hidden" name="form-name" value="Contact Form" />
             <div className="sections">
@@ -170,7 +168,7 @@ class FormContact extends Component {
               </Button>
             </div>
           </form>
-        </div>
+        </div> */}
       </div>
     )
   }
