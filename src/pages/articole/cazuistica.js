@@ -3,7 +3,7 @@ import NavBar from "../../components/NavBar/NavBar"
 import FooterBottom from "../../components/FooterBottom/FooterBottom"
 import "..//articole/style-edit.css"
 import cazuistica from "..//..//..//static/images/articole/cazuistica.jpg"
-// import Fade from "react-reveal/Fade"
+import Reveal from "..//..//components/Reveal"
 import Helmet from "react-helmet"
 import favicon from "..//..//..//static/images/favicon.png"
 import imagineArticol from "..//..//..//static/images/articole/stres.jpg"
@@ -101,11 +101,11 @@ class Stresul extends Component {
               <li>Depresie și stres post-traumatic</li>
               <li>Tulburare anxio-depresivă</li>
 
-              {/* <Fade bottom cascade> */}
-              <div className="neascultare">
-                <img src={cazuistica} alt="stres"></img>
-              </div>
-              {/* </Fade> */}
+              <Reveal>
+                <div className="neascultare">
+                  <img src={cazuistica} alt="stres"></img>
+                </div>
+              </Reveal>
 
               <li>Anxietate generalizată</li>
               <dt>o Fobii specifice :</dt>

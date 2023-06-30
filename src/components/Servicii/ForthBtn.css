@@ -1,12 +1,12 @@
 .btn-alls {
-  margin:-15px 0 0 0;
+  margin: -15px 0 0 0;
   margin-top: 30px !important;
 }
 
 .btn-gos {
   margin-right: 10px;
   padding: 10px;
-  background-color: #282C34;
+  background-color: #282c34;
   border-color: black !important;
   border-radius: 5px;
   cursor: pointer;
@@ -15,17 +15,17 @@
   border: 2px solid black;
 }
 
-.btn-gos:hover{
+.btn-gos:hover {
   color: white;
   text-decoration: none;
   opacity: 0.85;
   transition-duration: 0.8s;
 }
 
-.modalOpen{
+.modalOpen {
   position: fixed;
-  top:15% !important;
-  right:2.5%;
+  top: 15% !important;
+  right: 2.5%;
   left: 2.5%;
   bottom: 5%;
   z-index: 9999;
@@ -33,22 +33,22 @@
   box-shadow: 8px 8px 16px rgba(30, 30, 30, 0.3);
 }
 
-.ModalTitle{
+.ModalTitle {
   text-align: center;
   margin-top: 2.5%;
 }
 
-.ModalText{
+.ModalText {
   text-align: justify;
   margin: 5% 5% 2.5% !important;
 }
 
-.CloseModal{
+.CloseModal {
   position: absolute;
   top: 15px;
   right: 15px;
   padding: 2px;
-  background-color: #282C34;
+  background-color: #282c34;
   border-color: black !important;
   border-radius: 5px;
   cursor: pointer;
@@ -56,31 +56,28 @@
   border: 2px solid black;
   width: 35px;
   height: 35px;
+  z-index: 999;
 }
 
 @media screen and (max-width: 650px) {
-
-  .ModalTitle{
+  .ModalTitle {
     text-align: center;
     margin-top: 15%;
   }
-  
-  .ModalText{
+
+  .ModalText {
     text-align: justify;
     margin: 10%;
   }
-
 }
 
 @media screen and (max-width: 400px) {
-
-  .ModalTitle{
+  .ModalTitle {
     font-size: 1.75rem !important;
   }
-  
-  .ModalText{
+
+  .ModalText {
     font-size: 0.75rem !important;
     margin: 7% !important;
   }
-
 }

@@ -3,7 +3,7 @@ import NavBar from "..//../components/NavBar/NavBar"
 import FooterBottom from "..//../components/FooterBottom/FooterBottom"
 import "..//articole/style-edit.css"
 import neascultare from "..//..//..//static/images/articole/depresia.jpg"
-// import Fade from "react-reveal/Fade"
+import Reveal from "..//..//components/Reveal"
 import Helmet from "react-helmet"
 import favicon from "..//..//..//static/images/favicon.png"
 import imagineArticol from "..//..//..//static/images/articole/depresia.jpg"
@@ -101,7 +101,6 @@ class Depresia extends Component {
               probleme emoționale cât și fiziologice și poate cauza incapacitate
               de a funcționa ca înainte, atât acasă cât și la serviciu.
             </p>
-
             <p>
               <ul>
                 <h3>
@@ -130,12 +129,11 @@ class Depresia extends Component {
                 <li>Gânduri de moarte sau suicid.</li>
               </ul>
             </p>
-
-            {/* <Fade bottom cascade> */}
-            <div className="neascultare">
-              <img src={neascultare} alt="neascultare"></img>
-            </div>
-            {/* </Fade> */}
+            <Reveal>
+              <div className="neascultare">
+                <img src={neascultare} alt="neascultare"></img>
+              </div>
+            </Reveal>
 
             <p>
               Simptomele trebuie să persiste cel puțin 2 săptămâni și trebuie să
@@ -146,30 +144,24 @@ class Depresia extends Component {
               media vârstei în instalarea depresiei este estimată la sfârșitul
               adolescenței până la mijlocul vârstei de 20 ani.
             </p>
-
             <h3>Factorii de risc ai depresiei</h3>
-
             <p>
               <b>Biochimici:</b> anumite schimbări chimice la nivelul creierului
               pot contribui la apariția simptomelor depresive.
             </p>
-
             <p>
               <b>Genetici:</b> depresia poate rula genetic. În cazul gemenilor
               identici există 70% șanse ca celălalt să aibă boala, cândva în
               viață.
             </p>
-
             <p>
               <b>Personalitatea:</b> persoanele pesimiste sau cu o stimă de sine
               scăzută sunt predispuse în a dezvolta boala depresivă.
             </p>
-
             <p>
               <b>Factorii de mediu:</b> expunerea continuă la violență, abuz sau
               sărăcie poate favoriza instalarea depresiei.
             </p>
-
             <i>
               https://www.psychiatry.org/patients-families/depression/what-is-depression
             </i>

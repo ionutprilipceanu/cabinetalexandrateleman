@@ -3,7 +3,7 @@ import NavBar from "..//../components/NavBar/NavBar"
 import FooterBottom from "..//../components/FooterBottom/FooterBottom"
 import "..//articole/style-edit.css"
 import neascultare from "..//..//..//static/images/articole/neascultare.jpg"
-// import Fade from "react-reveal/Fade"
+import Reveal from "..//..//components/Reveal"
 import Helmet from "react-helmet"
 import favicon from "..//..//..//static/images/favicon.png"
 import imagineArticol from "..//..//..//static/images/articole/neascultare.jpg"
@@ -109,11 +109,11 @@ class Ascultarea extends Component {
               interacționezi, nu înainte de a termina de citit acest paragraf.
             </p>
 
-            {/* <Fade bottom cascade> */}
-            <div className="neascultare">
-              <img src={neascultare} alt="neascultare"></img>
-            </div>
-            {/* </Fade> */}
+            <Reveal>
+              <div className="neascultare">
+                <img src={neascultare} alt="neascultare"></img>
+              </div>
+            </Reveal>
 
             <p>
               Totodată te invit să devii propriul observator, și să identifici

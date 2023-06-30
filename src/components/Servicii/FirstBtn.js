@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import Modal from "react-modal"
-// import Zoom from "react-reveal/Zoom";
+import Reveal from "..//Reveal"
 import "..//Servicii/FirstBtn.css"
 import pozaPrima from "..//Servicii/image/poza1.jpg"
 
@@ -18,26 +18,25 @@ function FirstBtn() {
         ariaHideApp={false}
         className="modalOpen"
       >
-        {/* <Zoom> */}
-        <h1 className="ModalTitle">Terapie individuală</h1>
-        <p className="ModalText">
-          {" "}
-          După cum am spus și mai devreme, această formă de terapie este gândită
-          pentru a se lucra individual. Ca atare în acest cadru va participa
-          doar terapeutul și pacientul. Este o terapie indicată pentru numeroase
-          probleme sau nevoi, care pot fi remediate, precum: atacul de panică,
-          anxietatea, fobii, depresie, traumă și pierderi, probleme de
-          comunicare, dezvoltarea personală etc. Durata ședinței este de 60
-          minute.
-          <br />
-        </p>
-
         <button onClick={() => setModalIsOpen(false)} className="CloseModal">
           X
         </button>
+        <Reveal>
+          <h1 className="ModalTitle">Terapie individuală</h1>
+          <p className="ModalText">
+            {" "}
+            După cum am spus și mai devreme, această formă de terapie este
+            gândită pentru a se lucra individual. Ca atare în acest cadru va
+            participa doar terapeutul și pacientul. Este o terapie indicată
+            pentru numeroase probleme sau nevoi, care pot fi remediate, precum:
+            atacul de panică, anxietatea, fobii, depresie, traumă și pierderi,
+            probleme de comunicare, dezvoltarea personală etc. Durata ședinței
+            este de 60 minute.
+            <br />
+          </p>
 
-        <img src={pozaPrima} alt="pozaPrima" className="pozaEdit"></img>
-        {/* </Zoom> */}
+          <img src={pozaPrima} alt="pozaPrima" className="pozaEdit"></img>
+        </Reveal>
       </Modal>
     </div>
   )

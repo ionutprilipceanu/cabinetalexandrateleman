@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import Modal from "react-modal"
-// import Zoom from "react-reveal/Zoom";
+import Reveal from "..//Reveal"
 import "..//Servicii/SecondBtn.css"
 import pozaDoua from "..//Servicii/image/poza2.jpg"
 
@@ -18,25 +18,23 @@ function SecondBtn() {
         ariaHideApp={false}
         className="modalOpen"
       >
-        {/* <Zoom> */}
-        <h1 className="ModalTitle">Terapie de cuplu</h1>
-        <p className="ModalText">
-          {" "}
-          Această formă de terapie are în prim plan reconcilierea cuplului și a
-          familiei, ca atare participanții la terapie vor fi cuplul, cât și
-          copiii, de la caz la caz. Durata terapiei poate oscila între 60 minute
-          și 1h30 minute. Strategia de intervenție va fi personalizată în
-          funcție de particularitățile cuplului.
-          <br />
-        </p>
-
         <button onClick={() => setModalIsOpen(false)} className="CloseModal">
           X
         </button>
+        <Reveal>
+          <h1 className="ModalTitle">Terapie de cuplu</h1>
+          <p className="ModalText">
+            {" "}
+            Această formă de terapie are în prim plan reconcilierea cuplului și
+            a familiei, ca atare participanții la terapie vor fi cuplul, cât și
+            copiii, de la caz la caz. Durata terapiei poate oscila între 60
+            minute și 1h30 minute. Strategia de intervenție va fi personalizată
+            în funcție de particularitățile cuplului.
+            <br />
+          </p>
 
-        <img src={pozaDoua} alt="pozaPrima" className="pozaEdit"></img>
-
-        {/* </Zoom> */}
+          <img src={pozaDoua} alt="pozaPrima" className="pozaEdit"></img>
+        </Reveal>
       </Modal>
     </div>
   )

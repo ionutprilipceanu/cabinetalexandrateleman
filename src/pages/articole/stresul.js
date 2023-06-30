@@ -3,7 +3,7 @@ import NavBar from "..//../components/NavBar/NavBar"
 import FooterBottom from "..//../components/FooterBottom/FooterBottom"
 import "..//articole/style-edit.css"
 import stres from "..//..//..//static/images/articole/stres.jpg"
-// import Fade from "react-reveal/Fade"
+import Reveal from "..//..//components/Reveal"
 import Helmet from "react-helmet"
 import favicon from "..//..//..//static/images/favicon.png"
 import imagineArticol from "..//..//..//static/images/articole/stres.jpg"
@@ -117,12 +117,11 @@ class Stresul extends Component {
               cognitive (probleme de memorie, gânduri obsesive etc).
             </p>
 
-            {/* <Fade bottom cascade> */}
-            <div className="neascultare">
-              <img src={stres} alt="stres"></img>
-            </div>
-            {/* </Fade> */}
-
+            <Reveal>
+              <div className="neascultare">
+                <img src={stres} alt="stres"></img>
+              </div>
+            </Reveal>
             <p>
               Dacă simți că faci parte din categoria persoanelor stresate și
               presate de timp, de societate, de iubită, de iubit, de soție, de

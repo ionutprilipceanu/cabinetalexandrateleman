@@ -3,7 +3,7 @@ import NavBar from "..//../components/NavBar/NavBar"
 import FooterBottom from "..//../components/FooterBottom/FooterBottom"
 import "..//articole/style-edit.css"
 import neascultare from "..//..//..//static/images/articole/psihologul.jpg"
-// import Fade from "react-reveal/Fade"
+import Reveal from "..//..//components/Reveal"
 import Helmet from "react-helmet"
 import favicon from "..//..//..//static/images/favicon.png"
 import imagineArticol from "..//..//..//static/images/articole/psihologul.jpg"
@@ -118,11 +118,11 @@ class Psihologul extends Component {
               </ul>
             </p>
 
-            {/* <Fade bottom cascade> */}
-            <div className="neascultare">
-              <img src={neascultare} alt="neascultare"></img>
-            </div>
-            {/* </Fade> */}
+            <Reveal>
+              <div className="neascultare">
+                <img src={neascultare} alt="neascultare"></img>
+              </div>
+            </Reveal>
 
             <p>
               Din păcate nu există o formulă magică după care să vă alegeți

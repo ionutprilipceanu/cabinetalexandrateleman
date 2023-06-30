@@ -3,7 +3,7 @@ import NavBar from "..//../components/NavBar/NavBar"
 import FooterBottom from "..//../components/FooterBottom/FooterBottom"
 import "..//articole/style-edit.css"
 import prostia from "..//..//..//static/images/articole/prostia.jpg"
-// import Fade from "react-reveal/Fade"
+import Reveal from "..//..//components/Reveal"
 import Helmet from "react-helmet"
 import favicon from "..//..//..//static/images/favicon.png"
 import imagineArticol from "..//..//..//static/images/articole/prostia.jpg"
@@ -101,7 +101,6 @@ class Prostia extends Component {
               două persoane sau între cel puțin două repere, dintre care unul
               este om. Bineînțeles, omul stabilește când e prostie și când nu e.
             </p>
-
             <p>
               Dar ce se întâmplă atunci când prin introspecție ajungem la un alt
               răspuns, la un alt adevăr și emitem reflecții precum{" "}
@@ -113,13 +112,11 @@ class Prostia extends Component {
               ochii mei. Cândva o prietenă m-a întrebat dacă o carte ne poate
               ajuta să trecem peste o anumită problemă.
             </p>
-
-            {/* <Fade bottom cascade> */}
-            <div className="neascultare">
-              <img src={prostia} alt="prostia"></img>
-            </div>
-            {/* </Fade> */}
-
+            <Reveal>
+              <div className="neascultare">
+                <img src={prostia} alt="prostia"></img>
+              </div>
+            </Reveal>
             <p>
               Acum realizez că raspunsul potrivit era da, poate. O carte bună
               precum "Despre inimă și alte eseuri" a lui Andrei Pleșu, poate!
@@ -134,7 +131,6 @@ class Prostia extends Component {
               Citește, învață, acceptă, și nu uita <br />
               <i>Investește-n tine! </i>
             </p>
-
             <p>
               <b>Plesu, A. (2017). -</b> <i>Despre inimă și alte eseuri </i>
               Humanitas SA.

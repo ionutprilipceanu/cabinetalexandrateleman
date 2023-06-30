@@ -3,7 +3,7 @@ import NavBar from "../../components/NavBar/NavBar"
 import FooterBottom from "../../components/FooterBottom/FooterBottom"
 import "..//articole/style-edit.css"
 import cazuistica from "..//..//..//static/images/articole/cazuisticaFR.jpg"
-// import Fade from "react-reveal/Fade"
+import Reveal from "..//..//components/Reveal"
 import Helmet from "react-helmet"
 import favicon from "..//..//..//static/images/favicon.png"
 import imagineArticol from "..//..//..//static/images/articole/cazuisticaFR.jpg"
@@ -106,12 +106,11 @@ class Stresul extends Component {
               <li>Trouble anxio-depressif</li>
               <li>L anxiete généralisée </li>
 
-              {/* <Fade bottom cascade> */}
-              <div className="neascultare">
-                <img src={cazuistica} alt="stres"></img>
-              </div>
-              {/* </Fade> */}
-
+              <Reveal>
+                <div className="neascultare">
+                  <img src={cazuistica} alt="stres"></img>
+                </div>
+              </Reveal>
               <li>Les phobies specifique</li>
               <dd>
                 - Peur de voyage avec l avion ou avec un moyen de transport en

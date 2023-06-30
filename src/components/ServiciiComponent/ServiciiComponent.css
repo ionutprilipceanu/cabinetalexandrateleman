@@ -3,22 +3,17 @@
   text-align: center;
 }
 
-.backgroundLineServicii{
+.backgroundLineServicii {
   margin: 0 50% !important;
   margin-bottom: 2.5% !important;
   width: 100px;
   height: 5px;
-  background-color: rgb(199,233,255);
+  background-color: rgb(199, 233, 255);
 }
 
 @media screen and (max-width: 650px) {
-
   .titluServicii {
     margin-top: 30% !important;
     text-align: center;
   }
- 
-
- 
-  
 }

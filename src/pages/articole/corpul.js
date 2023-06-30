@@ -3,7 +3,7 @@ import NavBar from "..//../components/NavBar/NavBar"
 import FooterBottom from "..//../components/FooterBottom/FooterBottom"
 import "..//articole/style-edit.css"
 import oglinda from "..//..//..//static/images/articole/oglinda.jpg"
-// import Fade from "react-reveal/Fade"
+import Reveal from "..//..//components/Reveal"
 import Helmet from "react-helmet"
 import favicon from "..//..//..//static/images/favicon.png"
 import imagineArticol from "..//..//..//static/images/articole/oglinda.jpg"
@@ -114,11 +114,11 @@ class Corpul extends Component {
               dezvoltarea unei imagini corporale disfuncționale.
             </p>
 
-            {/* <Fade bottom cascade> */}
-            <div className="neascultare">
-              <img src={oglinda} alt="oglinda"></img>
-            </div>
-            {/* </Fade> */}
+            <Reveal>
+              <div className="neascultare">
+                <img src={oglinda} alt="oglinda"></img>
+              </div>
+            </Reveal>
 
             <p>
               De cele mai multe ori copii moștenesc trăsăturile părinților. În
