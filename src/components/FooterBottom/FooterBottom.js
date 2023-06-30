@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect, useState } from "react"
 import "./FooterBottom.css"
 import { Form } from "react-bootstrap"
 import Reveal from "..//Reveal"
@@ -6,10 +6,16 @@ import { Col } from "react-bootstrap"
 import { Button } from "react-bootstrap"
 
 const Footer = () => {
+  const [date, setDate] = useState("")
+  useEffect(() => {
+    const newDate = new Date()
+    let year = newDate.getFullYear()
+    setDate(year)
+  }, [])
   return (
     <div className="footer">
       <ul className="componenteDesktop">
-        <p>Alexandra Teleman - Psihoterapeut&copy;Iași România 2021 </p>
+        <p>Alexandra Teleman - Psihoterapeut&copy;Iași România {date} </p>
         <p> Investește-n tine! </p>
       </ul>
 
@@ -63,7 +69,7 @@ const Footer = () => {
       </Form>
 
       <ul className="componentePhone">
-        <p>Alexandra Teleman - Psihoterapeut &copy;Iași România 2021</p>
+        <p>Alexandra Teleman - Psihoterapeut &copy;Iași România {date}</p>
       </ul>
     </div>
   )
