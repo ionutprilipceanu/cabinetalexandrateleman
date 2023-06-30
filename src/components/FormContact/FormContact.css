@@ -36,6 +36,10 @@
   flex-direction: column;
 }
 
+.btnSend {
+  z-index: 999;
+}
+
 .send_BtnFrm {
   background-color: #282c34 !important;
   border-color: black !important;

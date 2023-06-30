@@ -29,7 +29,7 @@ class FormContact extends Component {
           <div className="backgroundLineServiciiContact"></div>
         </div>
 
-        <div className="continutFormFrm">
+        {/* <div className="continutFormFrm">
           <Form
             className="formBodyFrm"
             method="post"
@@ -131,6 +131,45 @@ class FormContact extends Component {
               {this.state.showText ? "Arată" : "Ascunde"}
             </Button>
           </div>
+        </div> */}
+        <div>
+          <form
+            name="Contact Form"
+            method="POST"
+            data-netlify="true"
+            action="#"
+          >
+            <input type="hidden" name="form-name" value="Contact Form" />
+            <div className="sections">
+              <div className="form-group">
+                <div>
+                  <label htmlFor="name">Nume:</label>
+                  <input type="text" name="name" id="name" />
+                </div>
+                <div>
+                  <label htmlFor="phoneNumber">Telefon:</label>
+                  <input
+                    type="number"
+                    name="phoneNumber"
+                    id="phoneNumber"
+                    className="form-input"
+                  />
+                </div>
+                <div>
+                  <label htmlFor="email">Email:</label>
+                  <input type="email" name="email" id="email" />
+                </div>
+              </div>
+            </div>
+            <div className="form-group">
+              <label htmlFor="comments">Comment:</label>
+              <br />
+              <textarea name="comments" id="comments"></textarea>
+              <Button type="submit" variant="dark" className="btnSend">
+                Send
+              </Button>
+            </div>
+          </form>
         </div>
       </div>
     )
