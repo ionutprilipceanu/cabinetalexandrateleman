@@ -36,7 +36,9 @@ class FormContact extends Component {
             netlify-honeypot="bot-field"
             data-netlify="true"
             name="person"
+            action="#"
           >
+            <input type="hidden" name="bot-field" />
             <Reveal>
               <div className="titluFrm">
                 <h3>Formular de contact</h3>
