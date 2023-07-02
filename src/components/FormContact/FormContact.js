@@ -1,9 +1,7 @@
 import React, { Component } from "react"
 import "./FormContact.css"
-import { Form } from "react-bootstrap"
-import { Col } from "react-bootstrap"
 import Reveal from "..//Reveal"
-import { FormControl, FormGroup, Button } from "react-bootstrap"
+import { Button } from "react-bootstrap"
 // Mail: cabinetteleman@gmail.com
 
 class FormContact extends Component {
@@ -34,7 +32,7 @@ class FormContact extends Component {
             name="Contact Form"
             method="POST"
             data-netlify="true"
-            action="#"
+            action="/thank-you"
             className="formBodyFrm"
           >
             <input type="hidden" name="form-name" value="Contact Form" />
@@ -74,7 +72,6 @@ class FormContact extends Component {
                 Trimite
               </Button>
             </Reveal>
-            {/* </Form> */}
           </form>
 
           <div className="contactInfoFormFrm">
