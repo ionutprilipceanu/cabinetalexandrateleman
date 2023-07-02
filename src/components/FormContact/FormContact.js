@@ -30,75 +30,52 @@ class FormContact extends Component {
         </div>
 
         <div className="continutFormFrm">
-          <Form
-            className="formBodyFrm"
-            method="post"
-            netlify-honeypot="bot-field"
+          <form
+            name="Contact Form"
+            method="POST"
             data-netlify="true"
-            name="person"
             action="#"
+            className="formBodyFrm"
           >
-            <input type="hidden" name="bot-field" />
+            <input type="hidden" name="form-name" value="Contact Form" />
             <Reveal>
               <div className="titluFrm">
                 <h3>Formular de contact</h3>
               </div>
 
-              <Form.Group as={Col}>
-                <Form.Label htmlFor="name">Nume</Form.Label>
-                <Form.Control
-                  id="name-input"
-                  type="text"
-                  name="name"
-                  placeholder=""
-                  required
-                  onChange={this.handInput}
-                />
-              </Form.Group>
-
-              <Form.Group as={Col}>
-                <Form.Label htmlFor="phone">Telefon</Form.Label>
-                <Form.Control
-                  placeholder=""
-                  id="phone-input"
-                  type="text"
-                  name="phone"
-                  required
-                  onChange={this.handInput}
-                />
-              </Form.Group>
-
-              <Form.Group as={Col}>
-                <Form.Label htmlFor="email">Email</Form.Label>
-                <Form.Control
-                  id="address-input"
-                  type="email"
-                  name="address"
-                  placeholder=""
-                  required
-                  onChange={this.handInput}
-                />
-              </Form.Group>
-
-              <FormGroup>
-                <Form.Label>Scrie mesajul tău</Form.Label>
-                <FormControl
-                  as="textarea"
-                  rows="5"
-                  columns="2"
-                  id="text-area"
-                  type="text"
-                  name="comment"
-                  required
-                  onChange={this.handInput}
-                />
-              </FormGroup>
+              <div className="sections">
+                <div className="form-group">
+                  <div>
+                    <label htmlFor="name">Nume:</label>
+                    <input type="text" name="name" id="name" />
+                  </div>
+                  <div>
+                    <label htmlFor="phoneNumber">Telefon:</label>
+                    <input
+                      type="number"
+                      name="phoneNumber"
+                      id="phoneNumber"
+                      className="form-input"
+                    />
+                  </div>
+                  <div>
+                    <label htmlFor="email">Email:</label>
+                    <input type="email" name="email" id="email" />
+                  </div>
+                </div>
+              </div>
+              <div className="form-group">
+                <label htmlFor="comments">Scrie mesajul tău:</label>
+                <br />
+                <textarea name="comments" id="comments"></textarea>
+              </div>
 
               <Button variant="primary" type="submit" className="send_BtnFrm">
                 Trimite
               </Button>
             </Reveal>
-          </Form>
+            {/* </Form> */}
+          </form>
 
           <div className="contactInfoFormFrm">
             {this.state.showText ? (
@@ -131,46 +108,6 @@ class FormContact extends Component {
             </Button>
           </div>
         </div>
-        {/* <div>
-          <form
-            name="Contact Form"
-            method="POST"
-            data-netlify="true"
-            action="#"
-            className="formBodyFrm"
-          >
-            <input type="hidden" name="form-name" value="Contact Form" />
-            <div className="sections">
-              <div className="form-group">
-                <div>
-                  <label htmlFor="name">Nume:</label>
-                  <input type="text" name="name" id="name" />
-                </div>
-                <div>
-                  <label htmlFor="phoneNumber">Telefon:</label>
-                  <input
-                    type="number"
-                    name="phoneNumber"
-                    id="phoneNumber"
-                    className="form-input"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="email">Email:</label>
-                  <input type="email" name="email" id="email" />
-                </div>
-              </div>
-            </div>
-            <div className="form-group">
-              <label htmlFor="comments">Comment:</label>
-              <br />
-              <textarea name="comments" id="comments"></textarea>
-              <Button type="submit" variant="dark" className="btnSend">
-                Send
-              </Button>
-            </div>
-          </form>
-        </div> */}
       </div>
     )
   }

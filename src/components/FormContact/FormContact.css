@@ -1,3 +1,15 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
 .continutFormFrm {
   display: flex;
   flex-direction: row;
@@ -10,7 +22,7 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 4px;
   padding: 2% 4% 3% 4%;
-  width: 50% !important;
+  width: 50%;
   /* background-color: rgba(217, 241, 250, 0.2); */
   box-shadow: 8px 8px 16px rgba(30, 30, 30, 0.3);
 }
@@ -86,9 +98,40 @@
   border-bottom: 1px solid #ccc;
   background-color: transparent;
 }
-:focus {
+
+.form-input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="message"],
+input[type="phoneNumber"],
+input[type="events"],
+input[type="doe"],
+input[type="city"],
+input[type="location"],
+input[type="profile"],
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.form-input:focus {
   outline: none;
   border-bottom: 1px solid #c7e9ff;
+}
+
+label {
+  font-size: 14px;
+  margin: 5px 0;
 }
 
 @media screen and (max-width: 950px) {
