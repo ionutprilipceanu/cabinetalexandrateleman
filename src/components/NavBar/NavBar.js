@@ -83,8 +83,6 @@ class Nav_bar extends Component {
                     Contact{" "}
                   </Link>
                 </li>
-                {/* <li><a href="https://www.linkedin.com/in/ionu%C5%A3-prilipceanu-20534ab0/" target="_blank" rel="noreferrer" className="logoLinkedinNav"> <FontAwesomeIcon icon={faLinkedin} /> </a></li>
-                <li><a href="https://github.com/ionutprilipceanu" target="_blank" rel="noreferrer" className="logoGithubNav"> <FontAwesomeIcon icon={faGithub} /> </a></li> */}
                 <li>
                   <a
                     href="https://www.facebook.com/Cabinet-Psihologic-Teleman-662227117527601"
