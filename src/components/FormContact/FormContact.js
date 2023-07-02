@@ -45,7 +45,7 @@ class FormContact extends Component {
                 <div className="form-group">
                   <div>
                     <label htmlFor="name">Nume:</label>
-                    <input type="text" name="name" id="name" />
+                    <input type="text" name="name" id="name" autoFocus />
                   </div>
                   <div>
                     <label htmlFor="phoneNumber">Telefon:</label>
@@ -54,18 +54,19 @@ class FormContact extends Component {
                       name="phoneNumber"
                       id="phoneNumber"
                       className="form-input"
+                      autoFocus
                     />
                   </div>
                   <div>
                     <label htmlFor="email">Email:</label>
-                    <input type="email" name="email" id="email" />
+                    <input type="email" name="email" id="email" autoFocus />
                   </div>
                 </div>
               </div>
               <div className="form-group">
                 <label htmlFor="comments">Scrie mesajul tău:</label>
                 <br />
-                <textarea name="comments" id="comments"></textarea>
+                <textarea name="comments" id="comments" autoFocus></textarea>
               </div>
 
               <Button variant="primary" type="submit" className="send_BtnFrm">

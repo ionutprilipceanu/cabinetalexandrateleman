@@ -124,9 +124,14 @@ textarea {
   font-size: 14px;
 }
 
-.form-input:focus {
+input:focus {
   outline: none;
-  border-bottom: 1px solid #c7e9ff;
+  border: 1px solid #c7e9ff;
+}
+
+textarea:focus {
+  outline: none;
+  border: 1px solid #c7e9ff;
 }
 
 label {
