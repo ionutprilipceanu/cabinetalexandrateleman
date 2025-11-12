@@ -11,6 +11,20 @@ exports.onCreateWebpackConfig = ({ stage, actions }) => {
       resolve: {
         alias: {},
       },
-    })
+    });
   }
-}
+};
+
+exports.createPages = async ({ actions }) => {
+  const { createRedirect } = actions;
+
+  // Example redirect from old URL path to new domain URL
+  createRedirect({
+    fromPath: '/despre',
+    toPath: 'https://alexandrateleman.ro/despre-mine/',
+    isPermanent: true,
+    redirectInBrowser: true,
+  });
+
+  // Add more redirects as needed here
+};
